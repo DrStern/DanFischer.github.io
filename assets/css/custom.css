@@ -48,6 +48,21 @@ a:hover{color:#003f8c;text-decoration:underline}
 .dropdown a:hover{background:#f1f3f5}
 .navbar li:hover > .dropdown{display:block}
 
+/* HOME‑LINK IN NAVBAR
+   --------------------------------------------------------------------- */
+.home-link{
+  position:absolute;                     /* keeps menu centered */
+  left:1rem;
+  top:50%;
+  transform:translateY(-50%);
+  color:#fff;
+  font-weight:700;
+  text-decoration:none;
+  white-space:nowrap;
+}
+.home-link:hover{opacity:.85}
+
+
 /* HERO BAND
    --------------------------------------------------------------------- */
 .hero{
