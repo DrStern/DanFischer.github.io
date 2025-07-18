@@ -36,7 +36,7 @@ a:hover{color:#003f8c;text-decoration:underline}
 .home-link{
   position:absolute;
   left:7.5rem;      /* ← tweak here to move logo right/left */
-  margin-right:1rem;/* ← tweak here to widen/narrow gap before menu */
+  margin-right:2.5rem;/* ← tweak here to widen/narrow gap before menu */
   font-weight:700;
   color:#fff;
   text-decoration:none;
