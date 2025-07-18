@@ -34,7 +34,7 @@ a:hover{color:#003f8c;text-decoration:underline}
 
 /* Home / logo link */
 .home-link{
-  margin-right:3rem;        /* <-- buffer before the menu starts */
+  margin-right:25rem;        /* <-- buffer before the menu starts */
   font-weight:700;
   color:#fff;
   text-decoration:none;
