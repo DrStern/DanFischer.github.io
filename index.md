@@ -3,58 +3,58 @@ layout: default
 title: Home
 ---
 
+<!-- HERO -->
 <div class="hero text-center">
-  <div class="container">
-    <h1>Welcome to the 61st District Court</h1>
-    <p class="lead">Achieving excellence, accountability, and transparency in our judiciary</p>
-  </div>
+  <h1>Welcome to the 61st District Court</h1>
+  <p>Achieving excellence, accountability, and transparency in our judiciary</p>
 </div>
 
 <!-- QUICK‑ACTION TILES -->
-<div class="container my-5">
-  <div class="row text-center g-4">
-    {% assign tiles = "Case Lookup,Pay Fines & Fees,Daily Dockets,Contact Us" | split: ',' %}
-    {% assign icons = "search,credit-card,calendar,mailbox" | split: ',' %}
-    {% for tile in tiles %}
-      <div class="col-6 col-md-3">
-        <a href="#" class="d-block quick-tile py-4 text-decoration-none text-dark">
-          <i class="bi bi-{{ icons[forloop.index0] }} fs-1 mb-2"></i>
-          <h6 class="m-0">{{ tile }}</h6>
-        </a>
-      </div>
-    {% endfor %}
-  </div>
+<div class="tile‑row">
+  {% assign tiles = "Case Lookup,Pay Fines & Fees,Daily Dockets,Contact Us" | split: ',' %}
+  {% assign icons = "search,credit-card,calendar,mailbox" | split: ',' %}
+  {% for tile in tiles %}
+    <a href="#" class="quick-tile">
+      <i class="bi bi-{{ icons[forloop.index0] }}"></i>
+      <span class="d-block mt‑2">{{ tile }}</span>
+    </a>
+  {% endfor %}
 </div>
 
-<!-- THREE COLUMNS -->
-<div class="container my-5">
-  <div class="row g-4">
-    <div class="col-md">
-      <h5>Case Types</h5>
-      <ul class="list-unstyled">
-        <li>Criminal</li><li>Traffic</li><li>Civil</li>
-      </ul>
-    </div>
-    <div class="col-md">
-      <h5>Online Services</h5>
-      <ul class="list-unstyled">
-        <li>Case Lookup</li><li>Pay Fines & Fees</li><li>Daily Dockets</li>
-      </ul>
-    </div>
-    <div class="col-md">
-      <h5>News & Announcements</h5>
-      <ul class="list-unstyled">
-        <li>Press Release</li><li>March 28, 2024</li>
-      </ul>
-    </div>
-  </div>
+<!-- THREE CARD SECTIONS -->
+<div class="section‑grid">
+
+  <section class="card">
+    <h2>Case Types</h2>
+    <ul>
+      <li><a href="#">Criminal</a></li>
+      <li><a href="#">Traffic</a></li>
+      <li><a href="#">Civil</a></li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Online Services</h2>
+    <ul>
+      <li><a href="#">Case Lookup</a></li>
+      <li><a href="#">Pay Fines & Fees</a></li>
+      <li><a href="#">Daily Dockets</a></li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>News & Announcements</h2>
+    <ul>
+      <li><a href="#">Press Release</a></li>
+      <li><a href="#">March 28 2024</a></li>
+    </ul>
+  </section>
+
 </div>
 
 <!-- BIG BUTTON STRIP -->
-<div class="container mb-5">
-  <div class="row g-3">
-    <div class="col-md"><a href="#" class="btn btn-primary big-btn">Juror Information</a></div>
-    <div class="col-md"><a href="#" class="btn btn-primary big-btn">Forms & Resources</a></div>
-    <div class="col-md"><a href="#" class="btn btn-primary big-btn">Probation Services</a></div>
-  </div>
+<div class="big‑btn‑row">
+  <a href="#" class="big‑btn">Juror Information</a>
+  <a href="#" class="big‑btn">Forms & Resources</a>
+  <a href="#" class="big‑btn">Probation Services</a>
 </div>
