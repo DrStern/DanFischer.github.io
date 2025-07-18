@@ -1,7 +1,7 @@
 ---
 ---
 
-/* 61st District Court – complete stylesheet
+/* 61st District Court – full stylesheet
    ===================================================================== */
 
 /* RESET / BASICS
@@ -32,11 +32,11 @@ a:hover{color:#003f8c;text-decoration:underline}
   box-shadow:0 2px 6px rgba(0,0,0,.15);
 }
 
-/* Home / logo link (adjust two numbers to fine‑tune) */
+/* Home / logo link */
 .home-link{
   position:absolute;
-  left:2.5rem;      /* ◀ distance from left edge (increase = move right) */
-  margin-right:3rem;/* ◀ gap before first menu item (increase = bigger gap) */
+  left:2.5rem;      /* ← tweak here to move logo right/left */
+  margin-right:3rem;/* ← tweak here to widen/narrow gap before menu */
   font-weight:700;
   color:#fff;
   text-decoration:none;
@@ -52,11 +52,21 @@ a:hover{color:#003f8c;text-decoration:underline}
   display:flex;
   gap:1.75rem;
 }
-.navbar a{color:#fff;}          /* keep ALL nav links white */
+
+/* Nav‑link appearance */
+.navbar a{
+  color:#ffffff;
+  font-weight:600;
+  font-size:1.05rem;
+  letter-spacing:.02em;
+  text-decoration:none;
+  transition:opacity .15s;
+}
 .navbar a:hover{opacity:.85}
 
 /* DROPDOWNS
    --------------------------------------------------------------------- */
+.navbar li{position:relative}
 .dropdown{
   position:absolute;
   left:50%;
@@ -77,7 +87,6 @@ a:hover{color:#003f8c;text-decoration:underline}
   font-weight:500;
 }
 .dropdown a:hover{background:#f1f3f5}
-.navbar li{position:relative}
 .navbar li:hover>.dropdown{display:block}
 
 /* HERO BAND
