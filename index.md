@@ -5,7 +5,7 @@ title: 61st District Court
 
 <!-- HERO -->
 <div class="hero text-center">
-  <h1>61st District Court</h1>
+  <h1>61st District Court</h1>
   <p>Achieving excellence, accountability, and transparency in our judiciary</p>
 </div>
 
@@ -32,13 +32,13 @@ title: 61st District Court
 <!-- THREE CARD SECTIONS -->
 <div class="section‑grid">
 
-  <!-- Case Types -->
+  <!-- Special Programming -->
   <section class="card">
-    <h2>Case Types</h2>
+    <h2>Special Programming</h2>
     <ul>
-      <li><a href="#">Criminal</a></li>
-      <li><a href="#">Traffic / Civil Infractions</a></li>
-      <li><a href="#">Small Claims (≤ $6,500)</a></li>
+      <li><a href="#">Problem‑Solving Courts</a></li>
+      <li><a href="#">Alternative Sentencing Department</a></li>
+      <li><a href="#">Eviction Diversion Initiative</a></li>
     </ul>
   </section>
 
@@ -56,7 +56,7 @@ title: 61st District Court
   <section class="card">
     <h2>News & Announcements</h2>
     <h3>Job Fair draws record turnout</h3>
-    <p>Our July 2025 Job Fair welcomed dozens of employers and job‑seekers to the courthouse, connecting residents with fresh opportunities. <a href="#">Read more&nbsp;→</a></p>
+    <p>Our July 2025 Job Fair welcomed dozens of employers and job‑seekers to the courthouse, connecting residents with fresh opportunities. <a href="#">Read more&nbsp;→</a></p>
   </section>
 
 </div>
@@ -67,3 +67,8 @@ title: 61st District Court
   <a href="#" class="big‑btn">Forms Library</a>
   <a href="#" class="big‑btn">Employment & Internships</a>
 </div>
+
+<!-- CHATBOT FLOATER -->
+<a href="#" class="chat-float" aria-label="Chatbot">
+  <i class="bi bi-chat-dots-fill"></i>
+</a>
