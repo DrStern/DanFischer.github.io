@@ -68,7 +68,4 @@ title: 61st District Court
   <a href="#" class="big‑btn">Employment & Internships</a>
 </div>
 
-<!-- CHATBOT FLOATER -->
-<a href="#" class="chat-float" aria-label="Chatbot">
-  <i class="bi bi-chat-dots-fill"></i>
-</a>
+
