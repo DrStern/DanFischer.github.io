@@ -1,7 +1,7 @@
 /* Hero band */
 .hero {
   background: url('/assets/img/courthouse.jpg') center/cover no-repeat;
-  color: #a3214e;
+  color: #fff;
   padding: 4.5rem 0;
   text-shadow: 0 1px 4px rgba(0,0,0,.7);
 }
@@ -12,7 +12,7 @@
 }
 
 .quick-tile {
-  border: 3px solid #e9ecef;
+  border: 20px solid #e9ecef;
   border-radius: .75rem;
   transition: background .2s;
 }
