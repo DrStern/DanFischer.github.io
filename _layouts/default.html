@@ -14,27 +14,26 @@
 
   <body>
 
-    <!-- PRIMARY NAVIGATION -->
-    <nav class="navbar">
-      <!-- 🔹 Home link pinned left -->
-      <a href="{{ '/' | relative_url }}" class="home-link">61st District Court</a>
+<!-- PRIMARY NAVIGATION -->
+<nav class="navbar">
+  <!-- Home / logo link, pinned left with breathing room -->
+  <a href="{{ '/' | relative_url }}" class="home-link">61st District Court</a>
 
-      <!-- Main menu centered -->
-      <ul>
-        <!-- About the Court -->
-        <li>
-          <a href="#">About the Court</a>
-          <ul class="dropdown">
-            <li><a href="{{ '/mission-vision/' | relative_url }}">Mission & Vision</a></li>
-            <li><a href="#">Role in Michigan Courts</a></li>
-            <li><a href="#">Jurisdiction & Map</a></li>
-            <li><a href="#">Staff Directory</a></li>
-            <li><a href="#">Annual Reports / Statistics</a></li>
-            <li><a href="#">Newsroom</a></li>
-            <li><a href="#">Careers & Internships</a></li>
-          </ul>
-        </li>
-
+  <!-- Main menu (stays visually centered) -->
+  <ul class="nav-menu">
+    <!-- About the Court -->
+    <li>
+      <a href="#">About the Court</a>
+      <ul class="dropdown">
+        <li><a href="{{ '/mission-vision/' | relative_url }}">Mission & Vision</a></li>
+        <li><a href="#">Role in Michigan Courts</a></li>
+        <li><a href="#">Jurisdiction & Map</a></li>
+        <li><a href="#">Staff Directory</a></li>
+        <li><a href="#">Annual Reports / Statistics</a></li>
+        <li><a href="#">Newsroom</a></li>
+        <li><a href="#">Careers & Internships</a></li>
+      </ul>
+    </li>
         <!-- Case Types -->
         <li>
           <a href="#">Case Types</a>
