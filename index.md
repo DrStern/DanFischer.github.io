@@ -6,7 +6,7 @@ title: Home
 <div class="hero text-center">
   <div class="container">
     <h1>Welcome to the 61st District Court</h1>
-    <p class="lead">Achieving excellence, accountability, and transparency in our judiciaryssss</p>
+    <p class="lead">Achieving excellence, accountability, and transparency in our judiciary</p>
   </div>
 </div>
 
