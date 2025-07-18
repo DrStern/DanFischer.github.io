@@ -56,9 +56,10 @@ title: 61st District Court
   <section class="card">
     <h2>News & Announcements</h2>
     <h3>Job Fair draws record turnout</h3>
-    <p>Our July 2025 Job Fair welcomed dozens of employers and job‑seekers to the courthouse, connecting residents with fresh opportunities. <a href="#">Read more&nbsp;→</a></p>
+    <p>Our July 2025 Job Fair welcomed dozens of employers and job‑seekers to the courthouse, connecting residents with fresh opportunities.
+      <a href="{{ '/newsroom/' | relative_url }}">Read more&nbsp;→</a>
+    </p>
   </section>
-
 </div>
 
 <!-- BIG BUTTON STRIP -->
