@@ -32,11 +32,11 @@ a:hover{color:#003f8c;text-decoration:underline}
   box-shadow:0 2px 6px rgba(0,0,0,.15);
 }
 
-/* Home / logo link – adjust the two values below to fine‑tune spacing */
+/* Home / logo link  */
 .home-link{
   position:absolute;
-  left:10.5rem;                 /* ⬅️ distance from the left edge of the screen */
-  margin-right:3.5rem;         /* ⬅️ gap between logo and first menu item */
+  left:2.5rem;                 /* ◀ distance from left edge  (tweak) */
+  margin-right:3rem;           /* ◀ gap before first menu item (tweak) */
   font-weight:700;
   color:#fff;
   text-decoration:none;
@@ -52,55 +52,66 @@ a:hover{color:#003f8c;text-decoration:underline}
   display:flex;
   gap:1.75rem;
 }
+.navbar a{color:#fff;}          /* ensure nav links stay white */
+.navbar a:hover{opacity:.85}
+
 /* DROPDOWNS
    --------------------------------------------------------------------- */
 .dropdown{
-  position:absolute;left:50%;top:100%;transform:translateX(-50%);
-  background:#fff;color:#212529;border-radius:.5rem;min-width:15rem;
-  padding:.5rem 0;box-shadow:0 8px 20px rgba(0,0,0,.10);display:none;
+  position:absolute;
+  left:50%;
+  top:100%;
+  transform:translateX(-50%);
+  background:#fff;
+  color:#212529;
+  border-radius:.5rem;
+  min-width:15rem;
+  padding:.5rem 0;
+  box-shadow:0 8px 20px rgba(0,0,0,.10);
+  display:none;
 }
-.dropdown a{display:block;padding:.45rem 1.25rem;color:#212529;font-weight:500}
+.dropdown a{
+  display:block;
+  padding:.45rem 1.25rem;
+  color:#212529;
+  font-weight:500;
+}
 .dropdown a:hover{background:#f1f3f5}
-.navbar li:hover > .dropdown{display:block}
-
-/* HOME‑LINK IN NAVBAR
-   --------------------------------------------------------------------- */
-.home-link{
-  position:absolute;                     /* keeps menu centered */
-  left:1rem;
-  top:50%;
-  transform:translateY(-50%);
-  color:#fff;
-  font-weight:700;
-  text-decoration:none;
-  white-space:nowrap;
-}
-.home-link:hover{opacity:.85}
-
+.navbar li:hover>.dropdown{display:block}
 
 /* HERO BAND
    --------------------------------------------------------------------- */
 .hero{
   background:url('../img/courthouse.jpg') center/cover no-repeat;
-  color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.7);
-  padding:5rem 1rem;min-height:45vh;
-  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  color:#fff;
+  text-shadow:0 1px 4px rgba(0,0,0,.7);
+  padding:5rem 1rem;
+  min-height:45vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
 }
-.hero h1{
-  font-size:3rem;font-weight:800;margin:.25rem 0;
-}
+.hero h1{font-size:3rem;font-weight:800;margin:.25rem 0}
 .hero p{font-size:1.125rem;margin:0}
 
 /* QUICK‑ACTION TILES
    --------------------------------------------------------------------- */
 .tile‑row{
-  display:flex;flex-wrap:wrap;gap:1.5rem;
-  margin-top:-2.5rem;justify-content:center;
+  display:flex;
+  flex-wrap:wrap;
+  gap:1.5rem;
+  margin-top:-2.5rem;
+  justify-content:center;
 }
 .quick-tile{
-  flex:1 1 10rem;max-width:11rem;
-  background:#fff;border:3px solid #e9ecef;border-radius:1rem;
-  text-align:center;padding:1.5rem .75rem;
+  flex:1 1 10rem;
+  max-width:11rem;
+  background:#fff;
+  border:3px solid #e9ecef;
+  border-radius:1rem;
+  text-align:center;
+  padding:1.5rem .75rem;
   transition:transform .25s,box-shadow .25s,border-color .25s;
 }
 .quick-tile:hover{
@@ -108,21 +119,29 @@ a:hover{color:#003f8c;text-decoration:underline}
   box-shadow:0 6px 14px rgba(0,0,0,.08);
   border-color:#b9d0e2;
 }
-.quick-tile i{font-size:2rem;color:#003b67;margin-bottom:.65rem;}
+.quick-tile i{font-size:2rem;color:#003b67;margin-bottom:.65rem}
 .quick-tile span{display:block;font-weight:600;font-size:1.05rem}
 
 /* SECTION CARDS
    --------------------------------------------------------------------- */
 .section‑grid{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
-  gap:2rem;margin-top:3rem;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
+  gap:2rem;
+  margin-top:3rem;
 }
 .card{
-  background:#fff;border:1px solid #dee2e6;border-radius:.75rem;
-  padding:1.75rem 1.25rem;box-shadow:0 2px 6px rgba(0,0,0,.05);
+  background:#fff;
+  border:1px solid #dee2e6;
+  border-radius:.75rem;
+  padding:1.75rem 1.25rem;
+  box-shadow:0 2px 6px rgba(0,0,0,.05);
 }
 .card h2{
-  font-size:1.25rem;font-weight:700;margin:.2rem 0 1rem;color:#003b67;
+  font-size:1.25rem;
+  font-weight:700;
+  margin:.2rem 0 1rem;
+  color:#003b67;
 }
 .card h3{font-size:1.05rem;margin:.2rem 0 .4rem;font-weight:700;color:#003b67}
 .card p{margin:.2rem 0 .6rem}
@@ -130,11 +149,20 @@ a:hover{color:#003f8c;text-decoration:underline}
 
 /* BIG BUTTON STRIP
    --------------------------------------------------------------------- */
-.big‑btn‑row{display:flex;flex-wrap:wrap;gap:1rem;margin:2.75rem 0}
+.big‑btn‑row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem;
+  margin:2.75rem 0;
+}
 .big‑btn{
-  flex:1 1 15rem;background:#004f91;color:#fff;
-  border-radius:.75rem;padding:.9rem 1rem;
-  font-weight:700;text-align:center;
+  flex:1 1 15rem;
+  background:#004f91;
+  color:#fff;
+  border-radius:.75rem;
+  padding:.9rem 1rem;
+  font-weight:700;
+  text-align:center;
   transition:background .2s,transform .2s;
 }
 .big‑btn:hover{background:#003b67;transform:translateY(-3px)}
@@ -147,54 +175,49 @@ a:hover{color:#003f8c;text-decoration:underline}
   right:1.5rem;
   bottom:1.5rem;
   z-index:1100;
-
   width:72px;
   height:72px;
-  background:#f79500;        /* 🔸 bright amber‑orange for max contrast */
+  background:#f79500;
   color:#fff;
+  border:3px solid #fff;
   border-radius:50%;
-  border:3px solid #fff;      /* white ring for clarity on any backdrop */
-
   display:flex;
   align-items:center;
   justify-content:center;
-
   box-shadow:0 6px 18px rgba(0,0,0,.28);
-  transition:background .2s, transform .2s;
+  transition:background .2s,transform .2s;
 }
-
-.chat-float:hover{
-  background:#d97800;        /* slightly darker on hover */
-  transform:translateY(-4px);
-}
-
-.chat-float i{font-size:1.9rem;}
+.chat-float:hover{background:#d97800;transform:translateY(-4px)}
+.chat-float i{font-size:1.9rem}
 
 /* FOOTER
    --------------------------------------------------------------------- */
 .footer{
-  background:#003b67;color:#fff;padding:2rem 1rem;margin-top:3rem;
+  background:#003b67;
+  color:#fff;
+  padding:2rem 1rem;
+  margin-top:3rem;
   font-size:.95rem;
 }
 .footer a{color:#d0e4ff}
 .footer .footer‑grid{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));
-  gap:2rem;align-items:start;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));
+  gap:2rem;
+  align-items:start;
 }
 .footer .logo{
-  display:flex;gap:.75rem;align-items:center;
-  font-weight:700;font-size:1.05rem;
+  display:flex;
+  gap:.75rem;
+  align-items:center;
+  font-weight:700;
+  font-size:1.05rem;
 }
 
 /* MAIN CONTENT PADDING
    --------------------------------------------------------------------- */
-main{
-  padding:0 1.5rem;          /* 24 px on small viewports */
-}
-@media (min-width:992px){
-  main{padding:0 3rem;}      /* 48 px on tablets / desktop */
-}
-
+main{padding:0 1.5rem}
+@media(min-width:992px){main{padding:0 3rem}}
 
 /* UTILITIES
    --------------------------------------------------------------------- */
