@@ -27,21 +27,6 @@ a:hover{color:#003f8c;text-decoration:underline}
   z-index:1000;
   display:flex;
   align-items:center;
-  justify-content:center;   /* keeps <ul> centered even with home-link */
-  padding:.5rem 1rem;
-  box-shadow:0 2px 6px rgba(0,0,0,.15);
-}
-
-/* NAVIGATION BAR
-   --------------------------------------------------------------------- */
-.navbar{
-  background:#003b67;
-  color:#fff;
-  position:sticky;
-  top:0;
-  z-index:1000;
-  display:flex;
-  align-items:center;
   justify-content:center;      /* keeps the <ul> visually centered */
   padding:.5rem 1rem;
   box-shadow:0 2px 6px rgba(0,0,0,.15);
