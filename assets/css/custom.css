@@ -1,7 +1,7 @@
 /* Hero band */
 .hero {
   background: url('/assets/img/courthouse.jpg') center/cover no-repeat;
-  color: #fff;
+  color: #dff;
   padding: 4.5rem 0;
   text-shadow: 0 1px 4px rgba(0,0,0,.7);
 }
