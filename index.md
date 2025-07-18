@@ -5,7 +5,7 @@ title: 61st District Court
 
 <!-- HERO -->
 <div class="hero text-center">
-  <h1>61st District Court</h1>
+  <h1>Welcome to the 61st District Court</h1>
   <p>Achieving excellence, accountability, and transparency in our judiciary</p>
 </div>
 
