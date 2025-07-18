@@ -57,9 +57,7 @@ a:hover{color:#003f8c;text-decoration:underline}
   display:flex;flex-direction:column;align-items:center;justify-content:center;
 }
 .hero h1{
-  font-size:3rem;            /* bolder, bigger */
-  font-weight:800;
-  margin:.25rem 0;
+  font-size:3rem;font-weight:800;margin:.25rem 0;
 }
 .hero p{font-size:1.125rem;margin:0}
 
@@ -116,15 +114,18 @@ a:hover{color:#003f8c;text-decoration:underline}
    --------------------------------------------------------------------- */
 .chat-float{
   position:fixed;right:1.5rem;bottom:1.5rem;z-index:1100;
-  width:56px;height:56px;background:#004f91;color:#fff;
-  border-radius:50%;display:flex;align-items:center;justify-content:center;
-  box-shadow:0 4px 12px rgba(0,0,0,.25);
+  width:72px;height:72px;               /* larger and more visible */
+  background:#0d6efd;color:#fff;        /* vivid blue */
+  border-radius:50%;
+  border:3px solid #fff;                /* white ring for contrast */
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 6px 18px rgba(0,0,0,.28);
   transition:background .2s,transform .2s;
 }
 .chat-float:hover{
-  background:#003b67;transform:translateY(-3px);
+  background:#0b5ed7;transform:translateY(-4px);
 }
-.chat-float i{font-size:1.4rem}
+.chat-float i{font-size:1.9rem}         /* bigger icon */
 
 /* FOOTER
    --------------------------------------------------------------------- */
