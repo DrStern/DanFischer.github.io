@@ -5,60 +5,134 @@
     <title>{{ page.title | default: site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons (for the four quick‑action tiles) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
-<!-- Bootstrap Icons CSS  ←  ADD THIS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    
-    <!-- Custom overrides -->
+    <!-- Custom site styles -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
   </head>
 
-  <body class="d-flex flex-column min-vh-100">
+  <body>
 
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
-      <div class="container">
-        <a class="navbar-brand fw-semibold" href="{{ '/' | relative_url }}">61st District Court</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="nav" class="collapse navbar-collapse">
-          <ul class="navbar-nav ms-auto">
-            {% assign items = "About the Court,Case Types,Online Services,Forms & Resources,Juror Info,Probation,Contact & Hours" | split: ',' %}
-            {% for item in items %}
-              <li class="nav-item"><a class="nav-link text-white" href="#">{{ item }}</a></li>
-            {% endfor %}
+    <!-- PRIMARY NAVIGATION -->
+    <nav class="navbar">
+      <ul>
+        <!-- About the Court -->
+        <li>
+          <a href="#">About the Court</a>
+          <ul class="dropdown">
+            <li><a href="#">Role in Michigan Court System</a></li>
+            <li><a href="#">Mission & Philosophy</a></li>
+            <li><a href="#">Jurisdiction & Map</a></li>
+            <li><a href="#">Judges, Leadership & Administration</a></li>
+            <li><a href="#">Annual Reports / Statistics</a></li>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">Employment & Internships</a></li>
           </ul>
-        </div>
-      </div>
+        </li>
+
+        <!-- Case Types -->
+        <li>
+          <a href="#">Case Types</a>
+          <ul class="dropdown">
+            <li><a href="#">Misdemeanor & Felony Arraignments</a></li>
+            <li><a href="#">Traffic / Civil Infractions</a></li>
+            <li><a href="#">General Civil (≤ $25 k)</a></li>
+            <li><a href="#">Small Claims (≤ $6 500)</a></li>
+            <li><a href="#">Landlord–Tenant</a></li>
+            <li><a href="#">Land‑Contract Forfeiture</a></li>
+          </ul>
+        </li>
+
+        <!-- Online Services -->
+        <li>
+          <a href="#">Online Services</a>
+          <ul class="dropdown">
+            <li><a href="#">Case Lookup</a></li>
+            <li><a href="#">Pay Fines & Fees</a></li>
+            <li><a href="#">Daily Dockets / Hearing Calendar</a></li>
+            <li><a href="#">Virtual Hearing Resources</a></li>
+          </ul>
+        </li>
+
+        <!-- Forms & Resources -->
+        <li>
+          <a href="#">Forms & Resources</a>
+          <ul class="dropdown">
+            <li><a href="#">Forms Library</a></li>
+            <li><a href="#">Fees & Fines Schedule</a></li>
+            <li><a href="#">Self‑Help Links</a></li>
+            <li><a href="#">General FAQ</a></li>
+            <li><a href="#">Related Links</a></li>
+            <li><a href="#">Local Administrative Orders</a></li>
+            <li><a href="#">ADA / Language Access</a></li>
+          </ul>
+        </li>
+
+        <!-- Juror Info -->
+        <li>
+          <a href="#">Juror Info</a>
+          <ul class="dropdown">
+            <li><a href="#">Jury Duty Overview</a></li>
+            <li><a href="#">Reporting Instructions</a></li>
+            <li><a href="#">Juror FAQ</a></li>
+            <li><a href="#">Orientation Video</a></li>
+          </ul>
+        </li>
+
+        <!-- Probation -->
+        <li>
+          <a href="#">Probation</a>
+          <ul class="dropdown">
+            <li><a href="#">Probation Overview</a></li>
+            <li><a href="#">Officer Directory</a></li>
+            <li><a href="#">Problem‑Solving Courts</a></li>
+            <li><a href="#">Alt. Sentencing</a></li>
+          </ul>
+        </li>
+
+        <!-- Contact & Location -->
+        <li>
+          <a href="#">Contact & Location</a>
+          <ul class="dropdown">
+            <li><a href="#">Address & Map</a></li>
+            <li><a href="#">Hours</a></li>
+            <li><a href="#">Phone Directory</a></li>
+            <li><a href="#">Public Records Requests</a></li>
+            <li><a href="#">Court Holidays & Closures</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
 
-    <!-- PAGE CONTENT -->
-    <main class="flex-grow-1">
+    <!-- MAIN CONTENT -->
+    <main>
       {{ content }}
     </main>
 
     <!-- FOOTER -->
-    <footer class="bg-light py-4">
-      <div class="container text-center small">
-        <div class="row">
-          <div class="col-md text-md-start">
-            <p class="mb-0"><strong>180 Ottawa Ave NW</strong><br>Grand Rapids, MI 49503</p>
-            <p class="mb-0">Hours Mon‑Fri, 8 AM – 5 PM</p>
+    <footer class="footer">
+      <div class="footer‑grid">
+        <div>
+          <div class="logo">
+            <!-- simple court icon -->
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="10" rx="2"/>
+              <path d="M12 7v4M6 7v4m12-4v4M2 21h20"/>
+            </svg>
+            61st District Court
           </div>
-          <div class="col-md my-3 my-md-0">
-            <img src="https://placehold.co/100x100?text=Logo" alt="Court logo" class="img-fluid">
-          </div>
-          <div class="col-md text-md-end">
-            <a href="#" class="text-decoration-none me-3">Privacy</a>
-            <a href="#" class="text-decoration-none">Accessibility</a>
-          </div>
+          <p class="mt‑4">180 Ottawa Ave NW<br>Grand Rapids, MI 49503</p>
+          <p>Mon – Fri  8:00 AM – 5:00 PM</p>
+        </div>
+
+        <div>
+          <a href="#" class="d-block mb-2">Privacy</a>
+          <a href="#" class="d-block">Accessibility</a>
         </div>
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
