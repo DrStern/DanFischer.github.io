@@ -32,15 +32,6 @@ a:hover{color:#003f8c;text-decoration:underline}
   box-shadow:0 2px 6px rgba(0,0,0,.15);
 }
 
-ChatGPT said:
-
-Thought for 19 seconds
-Below is a full replacement for the nav‐bar rules in assets/css/custom.css.
-Drop this block over your existing NAVIGATION BAR section, commit, push, then hard‑refresh.
-
-css
-Copy
-Edit
 /* NAVIGATION BAR
    --------------------------------------------------------------------- */
 .navbar{
@@ -59,7 +50,7 @@ Edit
 /* Home / logo link – adjust the two values below to fine‑tune spacing */
 .home-link{
   position:absolute;
-  left:2.5rem;                 /* ⬅️ distance from the left edge of the screen */
+  left:10.5rem;                 /* ⬅️ distance from the left edge of the screen */
   margin-right:3.5rem;         /* ⬅️ gap between logo and first menu item */
   font-weight:700;
   color:#fff;
