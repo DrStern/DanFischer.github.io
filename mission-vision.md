@@ -25,11 +25,20 @@ To be a model District Court that embraces innovation, prioritizes community eng
 
 ## Strategic Goals (2025 – 2028)
 
-| Goal | Key Initiatives |
-|-----|-----|
-| Modernize Court Technology | <ul><li>e‑filing roadmap</li><li>Virtual‑hearing enhancements</li></ul> |
-| Expand Problem‑Solving Courts | <ul><li>Add Mental‑Health Court track</li><li>Increase capacity by 25 %</li></ul> |
-| Improve Community Outreach | <ul><li>Quarterly “Court in the Community” events</li><li>Revamp website accessibility</li></ul> |
-| Enhance Staff Development | <ul><li>Leadership academy for supervisors</li><li>Annual implicit‑bias training</li></ul> |
+### Modernize Court Technology
+- e‑filing roadmap  
+- Virtual‑hearing enhancements  
+
+### Expand Problem‑Solving Courts
+- Add Mental‑Health Court track  
+- Increase capacity by 25 %  
+
+### Improve Community Outreach
+- Quarterly “Court in the Community” events  
+- Revamp website accessibility  
+
+### Enhance Staff Development
+- Leadership academy for supervisors  
+- Annual implicit‑bias training  
 
 *Last updated: {{ site.time | date: "%B %Y" }}*
