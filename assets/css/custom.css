@@ -49,7 +49,7 @@ a:hover{color:#003f8c;text-decoration:underline}
   display:none;
 }
 .dropdown a{
-  display:block; padding:.4rem 1.25rem;
+  display:block; padding:.45rem 1.25rem;
   color:#212529; font-weight:500;
 }
 .dropdown a:hover{background:#f1f3f5}
@@ -83,9 +83,7 @@ a:hover{color:#003f8c;text-decoration:underline}
   box-shadow:0 6px 14px rgba(0,0,0,.08);
   border-color:#b9d0e2;
 }
-.quick-tile i{
-  font-size:2rem; color:#003b67; margin-bottom:.65rem;
-}
+.quick-tile i{font-size:2rem; color:#003b67; margin-bottom:.65rem;}
 .quick-tile span{display:block; font-weight:600; font-size:1.05rem}
 
 /* SECTION CARDS
@@ -102,6 +100,8 @@ a:hover{color:#003f8c;text-decoration:underline}
 .card h2{
   font-size:1.25rem; font-weight:700; margin:.2rem 0 1rem; color:#003b67;
 }
+.card h3{font-size:1.05rem; margin:.2rem 0 .4rem; font-weight:700; color:#003b67}
+.card p{margin:.2rem 0 .6rem}
 .card ul{margin:.2rem 0 .5rem 1rem}
 
 /* BIG BUTTON STRIP
@@ -114,12 +114,14 @@ a:hover{color:#003f8c;text-decoration:underline}
   flex:1 1 15rem;
   background:#004f91; color:#fff;
   border-radius:.75rem;
-  padding:.85rem 1rem; font-weight:700; text-align:center;
+  padding:.9rem 1rem; font-weight:700; text-align:center;
   transition:background .2s, transform .2s;
 }
 .big‑btn:hover{
   background:#003b67; transform:translateY(-3px);
 }
+.big‑btn:visited{color:#fff}
+.big‑btn:hover{color:#fff}
 
 /* FOOTER
    --------------------------------------------------------------------- */
