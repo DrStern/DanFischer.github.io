@@ -32,14 +32,41 @@ a:hover{color:#003f8c;text-decoration:underline}
   box-shadow:0 2px 6px rgba(0,0,0,.15);
 }
 
-/* Home / logo link */
+ChatGPT said:
+
+Thought for 19 seconds
+Below is a full replacement for the nav‐bar rules in assets/css/custom.css.
+Drop this block over your existing NAVIGATION BAR section, commit, push, then hard‑refresh.
+
+css
+Copy
+Edit
+/* NAVIGATION BAR
+   --------------------------------------------------------------------- */
+.navbar{
+  background:#003b67;
+  color:#fff;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  display:flex;
+  align-items:center;
+  justify-content:center;      /* keeps the <ul> visually centered */
+  padding:.5rem 1rem;
+  box-shadow:0 2px 6px rgba(0,0,0,.15);
+}
+
+/* Home / logo link – adjust the two values below to fine‑tune spacing */
 .home-link{
-  margin-right:25rem;        /* <-- buffer before the menu starts */
+  position:absolute;
+  left:2.5rem;                 /* ⬅️ distance from the left edge of the screen */
+  margin-right:3.5rem;         /* ⬅️ gap between logo and first menu item */
   font-weight:700;
   color:#fff;
   text-decoration:none;
   white-space:nowrap;
 }
+.home-link:hover{opacity:.85}
 
 /* Main menu */
 .nav-menu{
