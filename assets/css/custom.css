@@ -113,19 +113,32 @@ a:hover{color:#003f8c;text-decoration:underline}
 /* CHATBOT FLOATER
    --------------------------------------------------------------------- */
 .chat-float{
-  position:fixed;right:1.5rem;bottom:1.5rem;z-index:1100;
-  width:72px;height:72px;               /* larger and more visible */
-  background:#0d6efd;color:#fff;        /* vivid blue */
+  position:fixed;
+  right:1.5rem;
+  bottom:1.5rem;
+  z-index:1100;
+
+  width:72px;
+  height:72px;
+  background:#f79500;        /* 🔸 bright amber‑orange for max contrast */
+  color:#fff;
   border-radius:50%;
-  border:3px solid #fff;                /* white ring for contrast */
-  display:flex;align-items:center;justify-content:center;
+  border:3px solid #fff;      /* white ring for clarity on any backdrop */
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
   box-shadow:0 6px 18px rgba(0,0,0,.28);
-  transition:background .2s,transform .2s;
+  transition:background .2s, transform .2s;
 }
+
 .chat-float:hover{
-  background:#0b5ed7;transform:translateY(-4px);
+  background:#d97800;        /* slightly darker on hover */
+  transform:translateY(-4px);
 }
-.chat-float i{font-size:1.9rem}         /* bigger icon */
+
+.chat-float i{font-size:1.9rem;}
 
 /* FOOTER
    --------------------------------------------------------------------- */
