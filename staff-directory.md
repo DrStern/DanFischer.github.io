@@ -31,7 +31,8 @@ _A friendly, one‑stop roster so the public and partner agencies know who to co
 |----------|------|-------|-------|
 | Court Administrator | **Eric F. Cyman** | (616) 123‑4510 | eric.cyman@grcourt.org |
 | Deputy Court Administrator | **Daniel Fischer** | (616) 123‑4511 | daniel.fischer@grcourt.org |
-
+| Administrative Assistant - Administration | **Amy Young** | (616) 123‑4511 | amy.young@grcourt.org |
+| Administrative Assistant - Finance | **Karen Cordes** | (616) 123‑4511 | karen.cordes@grcourt.org |
 
 ---
 
