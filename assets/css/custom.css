@@ -212,20 +212,29 @@ a:hover{color:#003f8c;text-decoration:underline}
 
 .footer a{color:#d0e4ff}
 
-/* One‑line, balanced row: address | links | logo */
+/* Grid layout: Address  |  Links  |  Logo */
 .footer-inner{
-  display:flex;
-  justify-content:space-between;  /* spreads the three columns evenly */
-  align-items:center;             /* vertically centered */
-  flex-wrap:wrap;                 /* stacks gracefully on narrow screens */
+  display:grid;
+  grid-template-columns:1fr auto auto; /* flexible left, two auto columns */
+  align-items:center;
   gap:2rem;
 }
 
 /* Logo size */
 .footer-logo{
-  width:120px;      /* tweak larger/smaller to taste */
-  max-width:100%;
+  width:120px;      /* tweak larger/smaller if desired */
   height:auto;
+  max-width:100%;
+}
+
+/* Responsive: stack vertically on very narrow screens */
+@media (max-width: 600px){
+  .footer-inner{
+    grid-template-columns:1fr;
+    justify-items:center;
+    text-align:center;
+  }
+  .footer-inner > div{margin-bottom:1rem}
 }
 
 
