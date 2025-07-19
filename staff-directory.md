@@ -16,7 +16,7 @@ _A friendly, one‑stop roster so the public and partner agencies know who to co
 |------|----------|-----------|-------|-------|
 | Hon. **Angela T. Ross** | Chief Judge - Sobriety Ct. | Courtroom 7A | (616) 123‑4501 | jsmith@61stdc.gov |
 | Hon. **Jennifer L. Faber R.** | Chief Judge Pro-Tempore / Domestic Violence Court. | Courtroom 7C | (616) 123‑4502 | mlee@61stdc.gov |
-| Hon. **Brian O. Neill** |  Courtroom 7B | (616) 123‑4503 | apatel@61stdc.gov |
+| Hon. **Brian O. Neill** ||  Courtroom 7B | (616) 123‑4503 | apatel@61stdc.gov |
 | Hon. **Nicholas S. Ayoub** |  Sobriety Ct. | Courtroom 7D | (616) 123‑4503 | apatel@61stdc.gov |
 | Hon. **Michael J. Distel** |  Drug Ct. | Courtroom 8C | (616) 123‑4503 | apatel@61stdc.gov |
 | Hon. **Kellen A. Dotson** |  Community Outreach Ct. | Courtroom 8D | (616) 123‑4503 | apatel@61stdc.gov |
