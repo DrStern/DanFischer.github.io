@@ -35,8 +35,8 @@ a:hover{color:#003f8c;text-decoration:underline}
 /* Home / logo link */
 .home-link{
   position:absolute;
-  left:7.5rem;      /* ← tweak here to move logo right/left */
-  margin-right:2.5rem;/* ← tweak here to widen/narrow gap before menu */
+  left:2.5rem;          /* ← tweak to move the logo right/left */
+  margin-right:3rem;    /* ← tweak to widen/narrow gap before the menu */
   font-weight:700;
   color:#fff;
   text-decoration:none;
@@ -55,23 +55,21 @@ a:hover{color:#003f8c;text-decoration:underline}
 
 /* Nav‑link appearance */
 .navbar a{
-  color:#ffffff;
-  font-weight:600;
-  font-size:1.05rem;
-  letter-spacing:.02em;
+  color:#ffffff;        /* bright white text */
+  font-weight:600;      /* semi‑bold */
+  font-size:1.05rem;    /* slightly larger than default */
+  letter-spacing:.02em; /* gentle spacing */
   text-decoration:none;
   transition:opacity .15s;
 }
 .navbar a:hover{opacity:.85}
 
-/* DROPDOWNS
-   --------------------------------------------------------------------- */
+/* DROPDOWNS */
 .navbar li{position:relative}
 .dropdown{
   position:absolute;
-  left:50%;
+  left:0;               /* anchor flush under parent link */
   top:100%;
-  transform:translateX(-50%);
   background:#fff;
   color:#212529;
   border-radius:.5rem;
@@ -88,6 +86,8 @@ a:hover{color:#003f8c;text-decoration:underline}
 }
 .dropdown a:hover{background:#f1f3f5}
 .navbar li:hover>.dropdown{display:block}
+
+
 
 /* HERO BAND
    --------------------------------------------------------------------- */
