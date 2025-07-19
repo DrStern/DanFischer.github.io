@@ -1,44 +1,64 @@
 ---
 layout: default
-title: Mission & Vision
-permalink: /mission-vision/
+title: Role in Michigan Courts
+permalink: /role-in-michigan-courts/
 ---
 
-# Mission & Vision
+# Our Role in Michigan’s Court System
 
-## Our Mission
-To administer justice with fairness, efficiency, and transparency while fostering public trust in the judiciary.
-
-## Our Vision
-To be a model District Court that embraces innovation, prioritizes community engagement, and delivers equitable outcomes for all who appear before us.
+The 61st District Court serves the City of Grand Rapids and surrounding townships by providing first‑level judicial services for most criminal, traffic, and civil matters. We are often the public’s **first point of contact** with the judiciary.
 
 ---
 
-## Guiding Principles
-- **Accessibility** – Ensure all court users can obtain information, services, and assistance without undue barriers.  
-- **Accountability** – Uphold the highest standards of integrity and responsibility in every decision.  
-- **Collaboration** – Partner with stakeholders to improve outcomes and community safety.  
-- **Innovation** – Leverage technology and evidence‑based practices to streamline processes and enhance service.  
-- **Respect** – Treat every individual with dignity, courtesy, and impartiality.
+## Jurisdiction & Geographic Coverage
+| Court Level | Area Served | Case Thresholds |
+|-------------|-------------|-----------------|
+| **61st District Court** | Grand Rapids (Kent County) | • Misdemeanors (≤ 1 yr jail)<br>• Felony arraignments & prelim exams<br>• Civil suits ≤ $25,000<br>• Small‑Claims ≤ $6,500<br>• Traffic & parking infractions<br>• Landlord–Tenant & eviction |
+| **63rd District Court** | Remaining townships in Kent County | Same monetary/​criminal thresholds as 61st |
+| **Kent County Circuit Court (17th Circuit)** | Entire county | • Felonies (sentences > 1 yr)<br>• Civil suits > $25,000<br>• Family & Juvenile matters<br>• Appeals from district courts |
+| **Ottawa, Muskegon, Allegan District & Circuit Courts** | Neighboring counties | Handle comparable matters for their locales |
 
 ---
 
-## Strategic Goals (2025 – 2028)
+## Types of Cases We Handle
 
-### Modernize Court Technology
-- e‑filing roadmap  
-- Virtual‑hearing enhancements  
+### Criminal
+* **Misdemeanors** – Assault & Battery, Retail Fraud (Misd.), DUI/OWI 1st, etc.  
+* **Preliminary Felony Proceedings** – Arraignment, probable‑cause conference, & preliminary exam before transfer to Circuit Court.  
 
-### Expand Problem‑Solving Courts
-- Add Mental‑Health Court track  
-- Increase capacity by 25 %  
+### Civil
+* **General Civil** – Contract disputes, personal‑property claims ≤ $25 k.  
+* **Small Claims** – Informal disputes ≤ $6,500 (no attorneys required).  
+* **Landlord–Tenant** – Eviction, rental arrears, land‑contract forfeitures.
 
-### Improve Community Outreach
-- Quarterly “Court in the Community” events  
-- Revamp website accessibility  
+### Traffic & Local Ordinances
+* Moving violations, parking citations, city code infractions, marine & park violations.
 
-### Enhance Staff Development
-- Leadership academy for supervisors  
-- Annual implicit‑bias training  
+### Problem‑Solving & Specialty Dockets
+* **Sobriety Court** (Misdemeanor DUI)  
+* **Veterans Treatment Court**  
+* **Mental‑Health Court track**  
+These programs emphasize treatment and accountability over traditional sentencing.
+
+---
+
+## How We Fit in the Statewide Structure
+1. **Arrest / Citation → District Court** – Arraignment, plea, discovery, motions, trial (for misdemeanors) or preliminary exam (for felonies).  
+2. **Felony bind‑over** → 17th Circuit Court for trial & sentencing.  
+3. **Appeals** – District‑court decisions may be appealed “by right” to Circuit Court, then to the Michigan Court of Appeals and the Michigan Supreme Court.  
+4. **Administrative Oversight** – The State Court Administrative Office (SCAO) sets statewide policy, collects caseload data, and audits specialty courts for compliance.
+
+---
+
+## Surrounding Jurisdictions at a Glance
+| Court | Location | Quick Notes |
+|-------|----------|-------------|
+| **59th District** | Walker & Grandville | West‑side metro communities |
+| **62‑A District** | Wyoming | High‑volume traffic & misdemeanors |
+| **62‑B District** | Kentwood | Eastern metro suburbs |
+| **Ottawa District Courts (58th)** | Holland, Grand Haven, Hudsonville | Adjacent western county |
+| **63rd District (Kent Co.)** | Multiple township locations | Rural & suburban Kent County |
+
+---
 
 *Last updated: {{ site.time | date: "%B %Y" }}*
