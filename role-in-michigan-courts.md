@@ -27,17 +27,18 @@ The 61st District Court serves the City of Grand Rapids and surrounding town
 * **Preliminary Felony Proceedings** – Arraignment, probable‑cause conference, & preliminary exam before transfer to Circuit Court.  
 
 ### Civil
-* **General Civil** – Contract disputes, personal‑property claims ≤ $25 k.  
-* **Small Claims** – Informal disputes ≤ $6,500 (no attorneys required).  
+* **General Civil** – Contract disputes, personal‑property claims ≤ $25k.  
+* **Small Claims** – Informal disputes ≤ $7,000 (no attorneys required).  
 * **Landlord–Tenant** – Eviction, rental arrears, land‑contract forfeitures.
 
 ### Traffic & Local Ordinances
 * Moving violations, parking citations, city code infractions, marine & park violations.
 
 ### Problem‑Solving & Specialty Dockets
-* **Sobriety Court** (Misdemeanor DUI)  
-* **Veterans Treatment Court**  
-* **Mental‑Health Court track**  
+* **Sobriety Courts** (Misdemeanor and Felony DUI)  
+* **Drug Court**  
+* **Domestic Violence Court**
+* **Community Outreach Court**  
 These programs emphasize treatment and accountability over traditional sentencing.
 
 ---
