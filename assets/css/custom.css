@@ -205,33 +205,30 @@ a:hover{color:#003f8c;text-decoration:underline}
 .footer{
   background:#003b67;
   color:#fff;
-  padding:2rem 2.5rem;          /* ⬅ wider side padding */
+  padding:2rem 2.5rem;            /* side buffer */
   margin-top:3rem;
   font-size:.95rem;
 }
 
 .footer a{color:#d0e4ff}
 
-/* FLEX row: Address | Links | Logo */
 .footer-grid{
   display:flex;
-  justify-content:space-between; /* spreads three columns edge‑to‑edge */
-  align-items:center;            /* vertical centering */
+  justify-content:space-between;  /* one straight line */
+  align-items:center;
   gap:2rem;
-  flex-wrap:nowrap;              /* **no wrapping** on desktop widths */
+  flex-wrap:nowrap;               /* prevents wrapping on desktops */
 }
 
-/* Logo size */
 .footer-logo{
-  width:120px;    /* tweak 100‑140 px if you’d like larger/smaller */
+  width:120px;                    /* tweak as desired */
   height:auto;
-  max-width:100%;
 }
 
-/* MOBILE: stack & center */
+/* Mobile stacking */
 @media (max-width:650px){
   .footer-grid{
-    flex-wrap:wrap;              /* allow stacking on narrow screens */
+    flex-wrap:wrap;
     text-align:center;
   }
   .footer-grid > div{
@@ -239,6 +236,7 @@ a:hover{color:#003f8c;text-decoration:underline}
     margin-bottom:1rem;
   }
 }
+
 
 
 
