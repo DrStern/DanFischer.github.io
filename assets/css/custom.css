@@ -1,126 +1,121 @@
----
----
+/* 61st District Court – FULL stylesheet  (2025‑07 refresh)
+   =================================================================== */
 
-/* 61st District Court – full stylesheet
-   ===================================================================== */
+/*--------------------------------------------------------------------
+  0.  Design tokens ‑‑ central colours / sizes
+--------------------------------------------------------------------*/
+:root{
+  /* brand */
+  --blue-900:#003b67;
+  --blue-800:#004f91;
+  --blue-700:#005fb7;
+  --orange-600:#f79500;
 
-/* RESET / BASICS
-   --------------------------------------------------------------------- */
+  /* greys */
+  --gray-100:#f5f7f9;
+  --gray-200:#e9ecef;
+  --gray-300:#dee2e6;
+  --gray-900:#212529;
+
+  /* typography */
+  --font-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+               "Helvetica Neue",Arial,sans-serif;
+  --fz-100:.95rem;
+  --fz-200:1.05rem;
+  --fz-300:1.25rem;
+}
+
+/*--------------------------------------------------------------------
+  1.  Reset / base
+--------------------------------------------------------------------*/
 *,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{
   margin:0;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  color:#212529;
-  background:#f5f7f9;
+  font-family:var(--font-body);
+  color:var(--gray-900);
+  background:var(--gray-100);
   line-height:1.5;
 }
-a{color:#0056b3;text-decoration:none}
-a:hover{color:#003f8c;text-decoration:underline}
+a{
+  color:var(--blue-700);
+  text-decoration:none;
+  transition:opacity .15s;
+}
+a:hover{color:var(--blue-900);opacity:.85;text-decoration:underline}
 
-/* NAVIGATION BAR
-   --------------------------------------------------------------------- */
+/*--------------------------------------------------------------------
+  2.  PRIMARY NAVBAR
+--------------------------------------------------------------------*/
 .navbar{
-  background:#003b67;
+  position:sticky;top:0;z-index:1000;
+  background:var(--blue-900);
   color:#fff;
-  position:sticky;
-  top:0;
-  z-index:1000;
-  display:flex;
-  align-items:center;
-  justify-content:center;      /* keeps the <ul> visually centered */
+  display:flex;justify-content:center;align-items:center;
   padding:.5rem 1rem;
   box-shadow:0 2px 6px rgba(0,0,0,.15);
 }
 
-/* Home / logo link */
+/* home / logo (pinned left) */
 .home-link{
-  position:absolute;
-  left:2.5rem;          /* ← tweak to move the logo right/left */
-  margin-right:3rem;    /* ← tweak to widen/narrow gap before the menu */
-  font-weight:700;
-  color:#fff;
-  text-decoration:none;
-  white-space:nowrap;
+  position:absolute;left:2.5rem;
+  font-weight:700;font-size:var(--fz-200);
+  color:#fff;white-space:nowrap;
 }
 .home-link:hover{opacity:.85}
 
-/* Main menu */
+/* menu (visually centred) */
 .nav-menu{
-  list-style:none;
-  margin:0;
-  padding:0;
-  display:flex;
-  gap:1.75rem;
+  display:flex;gap:1.75rem;
+  list-style:none;margin:0;padding:0;
 }
-
-/* Nav‑link appearance */
 .navbar a{
-  color:#ffffff;        /* bright white text */
-  font-weight:600;      /* semi‑bold */
-  font-size:1.05rem;    /* slightly larger than default */
-  letter-spacing:.02em; /* gentle spacing */
-  text-decoration:none;
-  transition:opacity .15s;
+  color:#fff;font-weight:600;font-size:var(--fz-200);
+  letter-spacing:.02em;text-decoration:none;
 }
 .navbar a:hover{opacity:.85}
 
-/* DROPDOWNS */
+/* dropdowns */
 .navbar li{position:relative}
 .dropdown{
-  position:absolute;
-  left:0;               /* anchor flush under parent link */
-  top:100%;
-  background:#fff;
-  color:#212529;
-  border-radius:.5rem;
+  position:absolute;left:0;top:100%;
   min-width:15rem;
-  padding:.5rem 0;
+  background:#fff;color:var(--gray-900);
+  border-radius:.5rem;
   box-shadow:0 8px 20px rgba(0,0,0,.10);
-  display:none;
+  padding:.5rem 0;display:none;
 }
 .dropdown a{
-  display:block;
-  padding:.45rem 1.25rem;
-  color:#212529;
-  font-weight:500;
+  display:block;padding:.45rem 1.25rem;
+  color:inherit;font-weight:500;text-decoration:none;
 }
-.dropdown a:hover{background:#f1f3f5}
+.dropdown a:hover{background:var(--gray-100)}
 .navbar li:hover>.dropdown{display:block}
 
-
-
-/* HERO BAND
-   --------------------------------------------------------------------- */
+/*--------------------------------------------------------------------
+  3.  HERO BANNER
+--------------------------------------------------------------------*/
 .hero{
   background:url('../img/courthouse.jpg') center/cover no-repeat;
-  color:#fff;
-  text-shadow:0 1px 4px rgba(0,0,0,.7);
-  padding:5rem 1rem;
-  min-height:45vh;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
+  color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.7);
+  padding:5rem 1rem;min-height:45vh;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
 }
 .hero h1{font-size:3rem;font-weight:800;margin:.25rem 0}
-.hero p{font-size:1.125rem;margin:0}
+.hero p {font-size:1.125rem;margin:0}
 
-/* QUICK‑ACTION TILES
-   --------------------------------------------------------------------- */
+/*--------------------------------------------------------------------
+  4.  QUICK‑ACTION TILES
+--------------------------------------------------------------------*/
 .tile‑row{
-  display:flex;
-  flex-wrap:wrap;
-  gap:1.5rem;
-  margin-top:-2.5rem;
-  justify-content:center;
+  display:flex;flex-wrap:wrap;gap:1.5rem;
+  margin-top:-2.5rem;justify-content:center;
 }
 .quick-tile{
-  flex:1 1 10rem;
-  max-width:11rem;
-  background:#fff;
-  border:3px solid #e9ecef;
-  border-radius:1rem;
-  text-align:center;
+  flex:1 1 10rem;max-width:11rem;
+  background:#fff;border:3px solid var(--gray-200);
+  border-radius:1rem;text-align:center;
   padding:1.5rem .75rem;
   transition:transform .25s,box-shadow .25s,border-color .25s;
 }
@@ -129,127 +124,135 @@ a:hover{color:#003f8c;text-decoration:underline}
   box-shadow:0 6px 14px rgba(0,0,0,.08);
   border-color:#b9d0e2;
 }
-.quick-tile i{font-size:2rem;color:#003b67;margin-bottom:.65rem}
-.quick-tile span{display:block;font-weight:600;font-size:1.05rem}
+.quick-tile i{font-size:2rem;color:var(--blue-900);margin-bottom:.65rem}
+.quick-tile span{display:block;font-weight:600;font-size:var(--fz-200)}
 
-/* SECTION CARDS
-   --------------------------------------------------------------------- */
+/*--------------------------------------------------------------------
+  5.  SECTION CARDS
+--------------------------------------------------------------------*/
 .section‑grid{
-  display:grid;
+  display:grid;gap:2rem;margin-top:3rem;
   grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
-  gap:2rem;
-  margin-top:3rem;
 }
 .card{
-  background:#fff;
-  border:1px solid #dee2e6;
+  background:#fff;border:1px solid var(--gray-300);
   border-radius:.75rem;
   padding:1.75rem 1.25rem;
   box-shadow:0 2px 6px rgba(0,0,0,.05);
 }
-.card h2{
-  font-size:1.25rem;
-  font-weight:700;
-  margin:.2rem 0 1rem;
-  color:#003b67;
-}
-.card h3{font-size:1.05rem;margin:.2rem 0 .4rem;font-weight:700;color:#003b67}
-.card p{margin:.2rem 0 .6rem}
+.card h2{font-size:var(--fz-300);font-weight:700;color:var(--blue-900);margin:.2rem 0 1rem}
+.card h3{font-size:var(--fz-200);font-weight:700;color:var(--blue-900);margin:.2rem 0 .4rem}
+.card p {margin:.2rem 0 .6rem}
 .card ul{margin:.2rem 0 .5rem 1rem}
 
-/* BIG BUTTON STRIP
-   --------------------------------------------------------------------- */
+/*--------------------------------------------------------------------
+  6.  BIG BUTTON STRIP
+--------------------------------------------------------------------*/
 .big‑btn‑row{
-  display:flex;
-  flex-wrap:wrap;
-  gap:1rem;
-  margin:2.75rem 0;
+  display:flex;flex-wrap:wrap;gap:1rem;margin:2.75rem 0;
 }
 .big‑btn{
-  flex:1 1 15rem;
-  background:#004f91;
-  color:#fff;
-  border-radius:.75rem;
+  flex:1 1 15rem;text-align:center;
+  background:var(--blue-800);color:#fff;
+  border-radius:.75rem;font-weight:700;
   padding:.9rem 1rem;
-  font-weight:700;
-  text-align:center;
   transition:background .2s,transform .2s;
 }
-.big‑btn:hover{background:#003b67;transform:translateY(-3px)}
+.big‑btn:hover{background:var(--blue-900);transform:translateY(-3px)}
 .big‑btn:visited,.big‑btn:hover{color:#fff}
 
-/* CHATBOT FLOATER
-   --------------------------------------------------------------------- */
+/*--------------------------------------------------------------------
+  7.  CHATBOT – floater + window shell
+--------------------------------------------------------------------*/
 .chat-float{
-  position:fixed;
-  right:1.5rem;
-  bottom:1.5rem;
-  z-index:1100;
-  width:72px;
-  height:72px;
-  background:#f79500;
-  color:#fff;
+  position:fixed;right:1.5rem;bottom:1.5rem;z-index:1100;
+  width:72px;height:72px;border-radius:50%;
+  background:var(--orange-600);color:#fff;
   border:3px solid #fff;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display:flex;align-items:center;justify-content:center;
   box-shadow:0 6px 18px rgba(0,0,0,.28);
   transition:background .2s,transform .2s;
 }
 .chat-float:hover{background:#d97800;transform:translateY(-4px)}
 .chat-float i{font-size:1.9rem}
 
-/* FOOTER
-   --------------------------------------------------------------------- */
-.footer{
-  background:#003b67;
-  color:#fff;
-  padding:2rem 2.5rem;          /* ⬅ wider side padding */
-  margin-top:3rem;
-  font-size:.95rem;
+/* overlay shell (hidden by default) */
+.chat-window{
+  position:fixed;right:1.25rem;bottom:100px;z-index:1099;
+  width:320px;max-width:calc(100% - 2rem);
+  background:#fff;border-radius:1rem;
+  box-shadow:0 8px 24px rgba(0,0,0,.18);
+  display:none;flex-direction:column;
+  overflow:hidden;
+}
+.chat-window.open{display:flex}
+
+.chat-header{
+  background:var(--blue-800);color:#fff;
+  padding:.65rem 1rem;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.chat-header button{
+  background:none;border:0;color:#fff;
+  font-size:1.25rem;cursor:pointer;
 }
 
+.chat-body{
+  flex:1 1 auto;padding:1rem;overflow-y:auto;
+  font-size:var(--fz-100);
+}
+.chat-body p{margin:.25rem 0}
+.chat-body .bot{color:var(--blue-900);font-weight:600}
+
+.chat-footer{
+  border-top:1px solid var(--gray-300);
+  padding:.5rem .75rem;display:flex;gap:.5rem;
+}
+.chat-footer input{
+  flex:1 1 auto;font:inherit;padding:.45rem .6rem;
+  border:1px solid var(--gray-300);border-radius:.5rem;
+}
+.chat-footer button{
+  flex:0 0 auto;background:var(--orange-600);color:#fff;
+  border:0;border-radius:.5rem;padding:.45rem .9rem;
+  font:inherit;font-weight:700;cursor:pointer;
+}
+.chat-footer button:hover{background:#d97800}
+
+/*--------------------------------------------------------------------
+  8.  FOOTER
+--------------------------------------------------------------------*/
+.footer{
+  margin-top:3rem;
+  background:var(--blue-900);color:#fff;
+  padding:2rem 2.5rem;font-size:var(--fz-100);
+}
 .footer a{color:#d0e4ff}
 
-/* FLEX row: Address | Links | Logo */
 .footer-grid{
-  display:flex;
-  justify-content:space-between; /* spreads three columns edge‑to‑edge */
-  align-items:center;            /* vertical centering */
-  gap:2rem;
-  flex-wrap:nowrap;              /* **no wrapping** on desktop widths */
+  display:flex;justify-content:space-between;align-items:center;
+  gap:2rem;flex-wrap:nowrap;      /* no wrapping desktop */
 }
-
-/* Logo size */
 .footer-logo{
-  width:120px;    /* tweak 100‑140 px if you’d like larger/smaller */
-  height:auto;
-  max-width:100%;
+  width:120px;height:auto;max-width:100%;
 }
 
-/* MOBILE: stack & center */
-@media (max-width:650px){
-  .footer-grid{
-    flex-wrap:wrap;              /* allow stacking on narrow screens */
-    text-align:center;
-  }
-  .footer-grid > div{
-    flex:1 1 100%;
-    margin-bottom:1rem;
-  }
+/* mobile: stack */
+@media(max-width:650px){
+  .footer-grid{flex-wrap:wrap;text-align:center}
+  .footer-grid>div{flex:1 1 100%;margin-bottom:1rem}
 }
 
-
-
-/* MAIN CONTENT PADDING
-   --------------------------------------------------------------------- */
+/*--------------------------------------------------------------------
+  9.  MAIN container padding
+--------------------------------------------------------------------*/
 main{padding:0 1.5rem}
 @media(min-width:992px){main{padding:0 3rem}}
 
-/* UTILITIES
-   --------------------------------------------------------------------- */
-.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+/*--------------------------------------------------------------------
+ 10.  UTILS
+--------------------------------------------------------------------*/
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+         overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .text‑center{text-align:center}
 .mt‑4{margin-top:1.5rem}
-
