@@ -209,24 +209,21 @@ a:hover{color:#003f8c;text-decoration:underline}
   margin-top:3rem;
   font-size:.95rem;
 }
+
 .footer a{color:#d0e4ff}
-.footer .footer‑grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));
-  gap:2rem;
-  align-items:start;
-}
-.footer .logo{
+
+/* One‑line, balanced row: address | links | logo */
+.footer-inner{
   display:flex;
-  gap:.75rem;
-  align-items:center;
-  font-weight:700;
-  font-size:1.05rem;
+  justify-content:space-between;  /* spreads the three columns evenly */
+  align-items:center;             /* vertically centered */
+  flex-wrap:wrap;                 /* stacks gracefully on narrow screens */
+  gap:2rem;
 }
 
-/* Footer logo size */
+/* Logo size */
 .footer-logo{
-  width:150px;          /* tweak width to taste */
+  width:120px;      /* tweak larger/smaller to taste */
   max-width:100%;
   height:auto;
 }
