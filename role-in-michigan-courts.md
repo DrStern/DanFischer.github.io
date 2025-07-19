@@ -1,44 +1,54 @@
 ---
 layout: default
-title: Mission & Vision
-permalink: /mission-vision/
+title: Role in Michigan Courts
+permalink: /role-in-michigan-courts/
 ---
 
-# Mission & Vision
+# Our Role in Michigan’s Court System
 
-## Our Mission
-To administer justice with fairness, efficiency, and transparency while fostering public trust in the judiciary.
-
-## Our Vision
-To be a model District Court that embraces innovation, prioritizes community engagement, and delivers equitable outcomes for all who appear before us.
+District courts are the judiciary’s “front door.” They handle the vast majority of criminal, traffic, and civil matters filed in Michigan.  
+As a district court serving Grand Rapids, the **61st District Court** is responsible for early criminal proceedings, lower‑value civil disputes, and a range of problem‑solving programs that divert eligible participants away from traditional sentencing.
 
 ---
 
-## Guiding Principles
-- **Accessibility** – Ensure all court users can obtain information, services, and assistance without undue barriers.  
-- **Accountability** – Uphold the highest standards of integrity and responsibility in every decision.  
-- **Collaboration** – Partner with stakeholders to improve outcomes and community safety.  
-- **Innovation** – Leverage technology and evidence‑based practices to streamline processes and enhance service.  
-- **Respect** – Treat every individual with dignity, courtesy, and impartiality.
+## Where We Fit in the Statewide Hierarchy
+
+| **District Courts** | First appearance for most cases, misdemeanors through trial, felony arraignments & prelim exams, traffic, small civil matters. | DUI 1st, retail fraud, civil suit ≤ $25 k, eviction hearing. |
+| **Circuit Courts** | Serious felonies through trial, higher‑value civil, family & juvenile jurisdiction, appeals from district court. | Felony assault, divorce, civil suit > $25 k. |
+| **Court of Appeals** | Reviews legal errors from circuit (and some agency) decisions. | Appeal of circuit‑court verdict. |
+| **Michigan Supreme Court** | Final interpreter of Michigan law; sets statewide rules, oversees the judiciary through the SCAO. | Establishes court‑rule changes, decides landmark appeals. |
 
 ---
 
-## Strategic Goals (2025 – 2028)
+## Types of Cases We Handle
 
-### Modernize Court Technology
-- e‑filing roadmap  
-- Virtual‑hearing enhancements  
+### Criminal
+* **Misdemeanors** – Assault & Battery, Retail Fraud (Misd.), DUI/OWI 1st, etc.  
+* **Preliminary Felony Proceedings** – Arraignment, probable‑cause conference, & preliminary exam before transfer to Circuit Court.  
 
-### Expand Problem‑Solving Courts
-- Add Mental‑Health Court track  
-- Increase capacity by 25 %  
+### Civil
+* **General Civil** – Contract disputes, personal‑property claims ≤ $25k.  
+* **Small Claims** – Informal disputes ≤ $7,000 (no attorneys required).  
+* **Landlord–Tenant** – Eviction, rental arrears, land‑contract forfeitures.
 
-### Improve Community Outreach
-- Quarterly “Court in the Community” events  
-- Revamp website accessibility  
+### Traffic & Local Ordinances
+* Moving violations, parking citations, city code infractions, marine & park violations.
 
-### Enhance Staff Development
-- Leadership academy for supervisors  
-- Annual implicit‑bias training  
+### Problem‑Solving & Specialty Dockets
+* **Sobriety Courts** (Misdemeanor and Felony DUI)  
+* **Drug Court**  
+* **Domestic Violence Court**
+* **Community Outreach Court**  
+These programs emphasize treatment and accountability over traditional sentencing.
+
+---
+
+## How We Fit in the Statewide Structure
+1. **Arrest / Citation → District Court** – Arraignment, plea, discovery, motions, trial (for misdemeanors) or preliminary exam (for felonies).  
+2. **Felony bind‑over** → 17th Circuit Court for trial & sentencing.  
+3. **Appeals** – District‑court decisions may be appealed “by right” to Circuit Court, then to the Michigan Court of Appeals and the Michigan Supreme Court.  
+4. **Administrative Oversight** – The State Court Administrative Office (SCAO) sets statewide policy, collects caseload data, and audits specialty courts for compliance.
+
+
 
 *Last updated: {{ site.time | date: "%B %Y" }}*
