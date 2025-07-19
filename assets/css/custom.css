@@ -212,29 +212,30 @@ a:hover{color:#003f8c;text-decoration:underline}
 
 .footer a{color:#d0e4ff}
 
-/* Grid layout: Address  |  Links  |  Logo */
-.footer-inner{
+/* Three columns: 1) flexible address 2) links 3) logo */
+.footer .footer‑grid{
   display:grid;
-  grid-template-columns:1fr auto auto; /* flexible left, two auto columns */
-  align-items:center;
+  grid-template-columns:1fr auto auto;  /* left flexes, middle & right auto */
+  align-items:center;                   /* vertical centering */
+  justify-content:space-between;        /* pushes them edge‑to‑edge */
   gap:2rem;
 }
 
 /* Logo size */
 .footer-logo{
-  width:120px;      /* tweak larger/smaller if desired */
+  width:120px;     /* tweak to 100‑140 px if you want bigger/smaller */
   height:auto;
   max-width:100%;
 }
 
-/* Responsive: stack vertically on very narrow screens */
-@media (max-width: 600px){
-  .footer-inner{
-    grid-template-columns:1fr;
-    justify-items:center;
+/* Mobile: stack items vertically */
+@media (max-width:600px){
+  .footer .footer‑grid{
+    grid-template-columns:1fr;          /* single column */
     text-align:center;
+    justify-items:center;               /* centers each item */
   }
-  .footer-inner > div{margin-bottom:1rem}
+  .footer .footer‑grid > div{margin-bottom:1rem}
 }
 
 
