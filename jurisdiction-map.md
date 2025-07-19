@@ -11,28 +11,27 @@ The **61st District Court** serves the City of Grand Rapids. Our court’s j
 | Dimension | Scope |
 |-----------|-------|
 | **Geographic** | All land area within the corporate limits of the City of Grand Rapids. |
-| **Subject‑Matter** | Misdemeanors, traffic & local‑ordinance violations, civil actions ≤ $25 000, small‑claims ≤ $6 500, landlord–tenant & land‑contract forfeiture, and felony preliminary proceedings. |
+| **Subject‑Matter** | Misdemeanors, traffic & local‑ordinance violations, civil actions ≤ $25,000, small‑claims ≤ $7,000, landlord–tenant & land‑contract forfeiture, and felony preliminary proceedings. |
 | **Personal** | Any defendant, plaintiff, or incident that arises within city boundaries (or for civil cases, where the defendant resides/does business in the city). |
 
 ---
 
 
 <!-- INTERACTIVE MAP – OpenStreetMap iframe (script‑free) -->
-<div style="margin:1rem 0">
-  <iframe
-    title="61st District Court Service Area"
-    width="100%"
-    height="350"
-    style="border:0;border-radius:.5rem"
-    src="https://www.openstreetmap.org/export/embed.html?bbox=-85.73%2C42.93%2C-85.60%2C43.00&amp;marker=42.9634%2C-85.6681&amp;layer=mapnik"
-    loading="lazy">
-  </iframe>
-  <small>
-    <a href="https://www.openstreetmap.org/?mlat=42.9634&amp;mlon=-85.6681#map=12/42.9634/-85.6681">
-      View larger map
-    </a>
-  </small>
-</div>
+#<div style="margin:1rem 0">
+## Interactive Map
+
+<iframe title="61st District Court Service Area"
+        width="100%" height="350"
+        style="border:0;border-radius:.5rem;margin:0;"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-85.73%2C42.93%2C-85.60%2C43.00&amp;marker=42.9634%2C-85.6681&amp;layer=mapnik"
+        loading="lazy">
+</iframe>
+<p style="margin:.5rem 0 0 0;font-size:.85rem;text-align:center">
+  <a href="https://www.openstreetmap.org/?mlat=42.9634&amp;mlon=-85.6681#map=12/42.9634/-85.6681">
+    View larger map
+  </a>
+</p>
 
 
 <div id="gr-map" style="width:100%;height:350px;border-radius:.5rem;"></div>
@@ -50,7 +49,6 @@ The **61st District Court** serves the City of Grand Rapids. Our court’s j
   // Marker at courthouse (adjust lat/lng if needed)
   L.marker([42.9681, -85.673]).addTo(map).bindPopup("61st District Court");
 </script>
-
 
 ## Neighboring District Courts
 
