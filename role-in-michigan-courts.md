@@ -6,16 +6,17 @@ permalink: /role-in-michigan-courts/
 
 # Our Role in Michigan’s Court System
 
-The 61st District Court serves the City of Grand Rapids and surrounding townships by providing first‑level judicial services for most criminal, traffic, and civil matters. We are often the public’s **first point of contact** with the judiciary.
+District courts are the judiciary’s “front door.” They handle the vast majority of criminal, traffic, and civil matters filed in Michigan.  
+As a district court serving Grand Rapids, the **61st District Court** is responsible for early criminal proceedings, lower‑value civil disputes, and a range of problem‑solving programs that divert eligible participants away from traditional sentencing.
 
 ---
 
-## Jurisdiction & Geographic Coverage
+## Where We Fit in the Statewide Hierarchy
 
-| **61st District Court** | Grand Rapids (Kent County) | • Misdemeanors (≤ 1 yr jail)<br>• Felony arraignments & prelim exams<br>• Civil suits ≤ $25,000<br>• Small‑Claims ≤ $6,500<br>• Traffic & parking infractions<br>• Landlord–Tenant & eviction |
-| **63rd District Court** | Remaining townships in Kent County | Same monetary/​criminal thresholds as 61st |
-| **Kent County Circuit Court (17th Circuit)** | Entire county | • Felonies (sentences > 1 yr)<br>• Civil suits > $25,000<br>• Family & Juvenile matters<br>• Appeals from district courts |
-| **Ottawa, Muskegon, Allegan District & Circuit Courts** | Neighboring counties | Handle comparable matters for their locales |
+| **District Courts** | First appearance for most cases, misdemeanors through trial, felony arraignments & prelim exams, traffic, small civil matters. | DUI 1st, retail fraud, civil suit ≤ $25 k, eviction hearing. |
+| **Circuit Courts** | Serious felonies through trial, higher‑value civil, family & juvenile jurisdiction, appeals from district court. | Felony assault, divorce, civil suit > $25 k. |
+| **Court of Appeals** | Reviews legal errors from circuit (and some agency) decisions. | Appeal of circuit‑court verdict. |
+| **Michigan Supreme Court** | Final interpreter of Michigan law; sets statewide rules, oversees the judiciary through the SCAO. | Establishes court‑rule changes, decides landmark appeals. |
 
 ---
 
@@ -48,16 +49,6 @@ These programs emphasize treatment and accountability over traditional sentencin
 3. **Appeals** – District‑court decisions may be appealed “by right” to Circuit Court, then to the Michigan Court of Appeals and the Michigan Supreme Court.  
 4. **Administrative Oversight** – The State Court Administrative Office (SCAO) sets statewide policy, collects caseload data, and audits specialty courts for compliance.
 
----
 
-## Surrounding Jurisdictions at a Glance
-
-| **59th District** | Walker & Grandville | West‑side metro communities |
-| **62‑A District** | Wyoming | High‑volume traffic & misdemeanors |
-| **62‑B District** | Kentwood | Eastern metro suburbs |
-| **Ottawa District Courts (58th)** | Holland, Grand Haven, Hudsonville | Adjacent western county |
-| **63rd District (Kent Co.)** | Multiple township locations | Rural & suburban Kent County |
-
----
 
 *Last updated: {{ site.time | date: "%B %Y" }}*
