@@ -20,7 +20,7 @@ _A friendly, one‑stop roster so the public and partner agencies know who to co
 | Hon. **Nicholas S. Ayoub** |  Sobriety Ct. | Courtroom 7D | (616) 123‑4503 | apatel@61stdc.gov |
 | Hon. **Michael J. Distel** |  Drug Ct. | Courtroom 8C | (616) 123‑4503 | apatel@61stdc.gov |
 | Hon. **Kellen A. Dotson** |  Community Outreach Ct. | Courtroom 8D | (616) 123‑4503 | apatel@61stdc.gov |
-| Magistrate **Bria Adderley-Williams** | | (616) 123‑4513 | apatel@61stdc.gov? |
+| Magistrate **Bria Adderley-Williams** | | Courtroom 1A |(616) 123‑4513 | apatel@61stdc.gov? |
 
 
 ---
