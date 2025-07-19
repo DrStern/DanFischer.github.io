@@ -1,44 +1,38 @@
 ---
 layout: default
-title: Mission & Vision
-permalink: /mission-vision/
+title: Newsroom
+permalink: /newsroom/
 ---
 
-# Mission & Vision
+# Newsroom
 
-## Our Mission
-To administer justice with fairness, efficiency, and transparency while fostering public trust in the judiciary.
-
-## Our Vision
-To be a model District Court that embraces innovation, prioritizes community engagement, and delivers equitable outcomes for all who appear before us.
+Stay up‑to‑date with the latest announcements, initiatives, and events from the 61st District Court.
 
 ---
 
-## Guiding Principles
-- **Accessibility** – Ensure all court users can obtain information, services, and assistance without undue barriers.  
-- **Accountability** – Uphold the highest standards of integrity and responsibility in every decision.  
-- **Collaboration** – Partner with stakeholders to improve outcomes and community safety.  
-- **Innovation** – Leverage technology and evidence‑based practices to streamline processes and enhance service.  
-- **Respect** – Treat every individual with dignity, courtesy, and impartiality.
+## Latest Headlines
+
+### Job Fair draws record turnout <small>· July&nbsp;2025</small>
+Our July&nbsp;2025 Job Fair welcomed dozens of employers and job‑seekers to the courthouse, connecting residents with fresh opportunities.   
+[Read full article →](/newsroom/job‑fair‑2025)
 
 ---
 
-## Strategic Goals (2025 – 2028)
+### Veterans Treatment Court celebrates 10‑year milestone <small>· May&nbsp;2025</small>
+A decade of service and success stories were honored at a special graduation ceremony for participants and mentors.   
+[Read full article →](/newsroom/vtc‑anniversary)
 
-### Modernize Court Technology
-- e‑filing roadmap  
-- Virtual‑hearing enhancements  
+---
 
-### Expand Problem‑Solving Courts
-- Add Mental‑Health Court track  
-- Increase capacity by 25 %  
+### Court adopts e‑Citation system for traffic tickets <small>· March&nbsp;2025</small>
+Partnership with local law‑enforcement agencies will streamline ticket processing and reduce wait times.   
+[Read full article →](/newsroom/e‑citation‑launch)
 
-### Improve Community Outreach
-- Quarterly “Court in the Community” events  
-- Revamp website accessibility  
+---
 
-### Enhance Staff Development
-- Leadership academy for supervisors  
-- Annual implicit‑bias training  
+## Media Resources
+* **Press Contacts:** <news@61stdistrictcourt.gov> • (616) 123‑4567  
+* **Logo & Photo Library:** <a href="#">Download assets →</a>  
+* **Speaker Requests:** <a href="#">Submit a request →</a>  
 
 *Last updated: {{ site.time | date: "%B %Y" }}*
