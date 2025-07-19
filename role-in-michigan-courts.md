@@ -11,8 +11,7 @@ The 61st District Court serves the City of Grand Rapids and surrounding town
 ---
 
 ## Jurisdiction & Geographic Coverage
-| Court Level | Area Served | Case Thresholds |
-|-------------|-------------|-----------------|
+
 | **61st District Court** | Grand Rapids (Kent County) | • Misdemeanors (≤ 1 yr jail)<br>• Felony arraignments & prelim exams<br>• Civil suits ≤ $25,000<br>• Small‑Claims ≤ $6,500<br>• Traffic & parking infractions<br>• Landlord–Tenant & eviction |
 | **63rd District Court** | Remaining townships in Kent County | Same monetary/​criminal thresholds as 61st |
 | **Kent County Circuit Court (17th Circuit)** | Entire county | • Felonies (sentences > 1 yr)<br>• Civil suits > $25,000<br>• Family & Juvenile matters<br>• Appeals from district courts |
@@ -52,8 +51,7 @@ These programs emphasize treatment and accountability over traditional sentencin
 ---
 
 ## Surrounding Jurisdictions at a Glance
-| Court | Location | Quick Notes |
-|-------|----------|-------------|
+
 | **59th District** | Walker & Grandville | West‑side metro communities |
 | **62‑A District** | Wyoming | High‑volume traffic & misdemeanors |
 | **62‑B District** | Kentwood | Eastern metro suburbs |
