@@ -16,20 +16,35 @@ The **61st District Court** serves the City of Grand Rapids. Our court’s j
 
 ---
 
-## Interactive Map
+<!-- INTERACTIVE MAP – OpenStreetMap + Leaflet -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-sA+e2R0QPe0DEdHEUjX6QeZABGdIWg6mNCh+RY6+/A8="
+  crossorigin=""
+/>
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-o9N1jvYJbssMf2xBGd3lem3DdXipMq5MWT2DGOm2l9w="
+  crossorigin=""
+></script>
 
-<div style="margin:1rem 0">
-  <!-- You can replace this iframe with any preferred map embed. -->
-  <iframe
-    title="61st District Court Service Area"
-    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11745.19335204749!2d-85.6681!3d42.9634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88185eee*********:0x************!2s61st%20District%20Court!5e0!3m2!1sen!2sus!4v0000000000000"
-    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+<div id="gr-map" style="width:100%;height:350px;border-radius:.5rem;"></div>
 
-*(If you have a shapefile or custom GIS layer, swap the embed URL to display an overlay of city boundaries.)*
+<script>
+  // Center on Grand Rapids
+  var map = L.map("gr-map").setView([42.9634, -85.6681], 12);
 
----
+  // Base layer
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution:
+      '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
+  }).addTo(map);
+
+  // Marker at courthouse (adjust lat/lng if needed)
+  L.marker([42.9681, -85.673]).addTo(map).bindPopup("61st District Court");
+</script>
+
 
 ## Neighboring District Courts
 
