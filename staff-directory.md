@@ -14,9 +14,14 @@ _A friendly, one‑stop roster so the public and partner agencies know who to co
 
 | Name | Division | Courtroom | Phone | Email |
 |------|----------|-----------|-------|-------|
-| Hon. **Jane K. Smith** | Criminal / Sobriety Ct. | Courtroom 1 | (616) 123‑4501 | jsmith@61stdc.gov |
-| Hon. **Michael R. Lee** | Civil / Veterans Ct. | Courtroom 2 | (616) 123‑4502 | mlee@61stdc.gov |
-| Hon. **Alyssa G. Patel** | Traffic / Mental‑Health Track | Courtroom 3 | (616) 123‑4503 | apatel@61stdc.gov |
+| Hon. **Angela T. Ross** | Chief Judge - Sobriety Ct. | Courtroom 7A | (616) 123‑4501 | jsmith@61stdc.gov |
+| Hon. **Jennifer L. Faber R.** | Chief Judge Pro-Tempore / Domestic Violence Court. | Courtroom 7C | (616) 123‑4502 | mlee@61stdc.gov |
+| Hon. **Brian O. Neill** |  Courtroom 7B | (616) 123‑4503 | apatel@61stdc.gov |
+| Hon. **Nicholas S. Ayoub** |  Sobriety Ct. | Courtroom 7D | (616) 123‑4503 | apatel@61stdc.gov |
+| Hon. **Michael J. Distel** |  Drug Ct. | Courtroom 8C | (616) 123‑4503 | apatel@61stdc.gov |
+| Hon. **Kellen A. Dotson** |  Community Outreach Ct. | Courtroom 8D | (616) 123‑4503 | apatel@61stdc.gov |
+| Magistrate | **Bria Adderley-Williams** | (616) 123‑4513 | email? |
+
 
 ---
 
@@ -55,19 +60,7 @@ _A friendly, one‑stop roster so the public and partner agencies know who to co
 
 ---
 
-## Bench
 
-| Service | Window / Ext. | Email |
-|---------|---------------|-------|
-| Chief Judge | **Angela T. Ross ** | (616) 123‑4512 | Email? |
-| Chief Judge Pro-Tempore | **Jenifer L. Faber** | (616) 123‑4513 | email? |
-| Judge | **Nicholas S. Ayoub** | (616) 123‑4513 | email? |
-| Judge | **Brian O. Neill** | (616) 123‑4513 | email? |
-| Judge | **Michael J. Distel** | (616) 123‑4513 | email? |
-| Judge | **Kellen A. Dotson** | (616) 123‑4513 | email? |
-| Magistrate | **Bria Adderley-Williams** | (616) 123‑4513 | email? |
-
----
 
 Need someone not listed? Call our main line at **(616) 123‑4500** and we’ll direct you.
 
