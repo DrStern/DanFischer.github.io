@@ -112,19 +112,30 @@
       {{ content }}
     </main>
 
-    <!-- FOOTER -->
+      <!-- FOOTER -->
     <footer class="footer">
       <div class="footer‑grid">
-        <!-- Logo + address -->
+        <!-- Address block (left) -->
         <div>
-          <div class="logo">
-            <img src="{{ '/assets/img/logo.png' | relative_url }}"
-                 alt="61st District Court logo"
-                 class="footer-logo">
-          </div>
           <p class="mt‑4">180 Ottawa Ave NW<br>Grand Rapids, MI 49503</p>
           <p>Mon – Fri&nbsp; 8 AM – 5 PM</p>
         </div>
+
+        <!-- Utility links (center) -->
+        <div>
+          <a href="#" class="d-block mb-2">Privacy</a>
+          <a href="#" class="d-block">Accessibility</a>
+        </div>
+
+        <!-- Logo (right) -->
+        <div class="logo">
+          <img src="{{ '/assets/img/logo.png' | relative_url }}"
+               alt="61st District Court logo"
+               class="footer-logo">
+        </div>
+      </div>
+    </footer>
+
 
         <!-- Utility links -->
         <div>
