@@ -18,14 +18,14 @@ Our July&nbsp;2025 Job Fair welcomed dozens of employers and job‑seekers to t
 
 ---
 
-### Veterans Treatment Court celebrates 10‑year milestone <small>· May&nbsp;2025</small>
+### Problem Solving Court Graduation Celebration <small>· May&nbsp;2025</small>
 A decade of service and success stories were honored at a special graduation ceremony for participants and mentors.   
 [Read full article →](/newsroom/vtc‑anniversary)
 
 ---
 
-### Court adopts e‑Citation system for traffic tickets <small>· March&nbsp;2025</small>
-Partnership with local law‑enforcement agencies will streamline ticket processing and reduce wait times.   
+### Dan Fischer is promoted to Deputy Court Administrator - the world rejoices <small>· January&nbsp;2025</small>
+As the title says, Dan is the greatest.   
 [Read full article →](/newsroom/e‑citation‑launch)
 
 ---

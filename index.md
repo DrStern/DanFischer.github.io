@@ -11,10 +11,13 @@ title: 61st District Court
 
 <!-- QUICK‑ACTION TILES -->
 <div class="tile‑row">
-  <a href="#" class="quick-tile">
+  <!-- Case Lookup tile — now linked -->
+  <a href="{{ '/record-search/' | relative_url }}" class="quick-tile">
     <i class="bi bi-search"></i>
     <span>Case Lookup</span>
   </a>
+
+  <!-- leave the others unchanged (or add links when you’re ready) -->
   <a href="#" class="quick-tile">
     <i class="bi bi-credit-card"></i>
     <span>Pay Fines & Fees</span>

@@ -1,122 +1,200 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title | default: site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap Icons (tiles + chatbot) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Bootstrap Icons (tiles + chatbot) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
-    <!-- Custom site styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  </head>
+  <!-- Site‑wide stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-  <body>
+  <!-- Chat‑widget skin (add to custom.css later if you wish) -->
+  <style>
+  /* CHATBOT ­­­­­­­­­­­­­­­­------------------------------------------------- */
+  .chat-float{
+    position:fixed;
+    bottom:1.75rem;
+    right:1.75rem;
+    width:56px;height:56px;
+    background:#b86036;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.5rem;
+    box-shadow:0 3px 12px rgba(0,0,0,.3);
+    z-index:1200;
+  }
+  .chat-float:hover{background:#9e522d}
+
+  .chat-window{
+    position:fixed;
+    bottom:100px;
+    right:1.5rem;
+    width:320px;
+    max-height:450px;
+    background:#fff;
+    border-radius:.75rem;
+    box-shadow:0 4px 16px rgba(0,0,0,.25);
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    z-index:1200;
+    transform:scale(0);
+    transform-origin:bottom right;
+    transition:transform .25s ease;
+  }
+  .chat-window.open{transform:scale(1)}
+
+  .chat-header{
+    background:#003b67;
+    color:#fff;
+    font-weight:700;
+    padding:.75rem 1rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .chat-header button{background:none;border:none;color:#fff;font-size:1.25rem;cursor:pointer}
+
+  .chat-messages{
+    flex:1 1 auto;
+    padding:.75rem 1rem;
+    overflow-y:auto;
+    font-size:.9rem;
+    background:#f4f6f8;
+  }
+
+  .chat-input{display:flex;border-top:1px solid #dee2e6}
+  .chat-input input{
+    flex:1 1 auto;
+    border:none;
+    padding:.5rem .75rem;
+    font:inherit;
+  }
+  .chat-input input:focus{outline:none}
+  .chat-input button{
+    background:#004f91;
+    color:#fff;
+    border:none;
+    padding:.5rem .9rem;
+    cursor:pointer;
+    transition:background .2s;
+  }
+  .chat-input button:hover{background:#003b67}
+  </style>
+</head>
+
+<body>
 
 <!-- PRIMARY NAVIGATION -->
 <nav class="navbar">
-  <!-- Home / logo link, pinned left with breathing room -->
-  <a href="{{ '/' | relative_url }}" class="home-link">61st District Court</a>
+  <!-- Home / logo link -->
+  <a href="{{ '/' | relative_url }}" class="home-link">61st District Court</a>
 
-  <!-- Main menu (stays visually centered) -->
+  <!-- Main menu -->
   <ul class="nav-menu">
     <!-- About the Court -->
     <li>
       <a href="#">About the Court</a>
       <ul class="dropdown">
-        <li><a href="{{ '/mission-vision/' | relative_url }}">Mission & Vision</a></li>
-        <li><a href="{{ '/newsroom/' | relative_url }}">Newsroom</a></li>
+        <li><a href="{{ '/mission-vision/'     | relative_url }}">Mission & Vision</a></li>
+        <li><a href="{{ '/newsroom/'           | relative_url }}">Newsroom</a></li>
         <li><a href="{{ '/role-in-michigan-courts/' | relative_url }}">Role in Michigan Courts</a></li>
-        <li><a href="{{ '/jurisdiction-map/' | relative_url }}">Jurisdiction &amp; Map</a></li>
-        <li><a href="{{ '/staff-directory/' | relative_url }}">Staff Directory</a></li>
+        <li><a href="{{ '/jurisdiction-map/'   | relative_url }}">Jurisdiction & Map</a></li>
+        <li><a href="{{ '/staff-directory/'    | relative_url }}">Staff Directory</a></li>
         <li><a href="#">Annual Reports</a></li>
-        <li><a href="#">Careers & Internships</a></li>
+        <li><a href="#">Careers & Internships</a></li>
       </ul>
     </li>
-        <!-- Case Types -->
-        <li>
-          <a href="#">Case Types</a>
-          <ul class="dropdown">
-            <li><a href="#">Criminal</a></li>
-            <li><a href="#">Traffic / Civil Infractions</a></li>
-            <li><a href="#">General Civil</a></li>
-            <li><a href="#">Small Claims</a></li>
-            <li><a href="#">Landlord–Tenant</a></li>
-            <li><a href="#">Land‑Contract Forfeiture</a></li>
-          </ul>
-        </li>
 
-        <!-- Online Services -->
-        <li>
-          <a href="#">Online Services</a>
-          <ul class="dropdown">
-            <li><a href="#">Case Lookup</a></li>
-            <li><a href="#">Online Payments</a></li>
-            <li><a href="#">Virtual Hearings</a></li>
-            <li><a href="#">Hearing Calendar</a></li>
-          </ul>
-        </li>
-
-        <!-- Forms & Resources -->
-        <li>
-          <a href="#">Forms & Resources</a>
-          <ul class="dropdown">
-            <li><a href="#">Forms Library</a></li>
-            <li><a href="#">Fee Schedule</a></li>
-            <li><a href="#">Self‑Help Center</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Local Administrative Orders</a></li>
-            <li><a href="#">ADA & Language Access</a></li>
-            <li><a href="#">Related Links</a></li>
-          </ul>
-        </li>
-
-        <!-- Juror Info -->
-        <li>
-          <a href="#">Juror Info</a>
-          <ul class="dropdown">
-            <li><a href="#">Jury Duty Overview</a></li>
-            <li><a href="#">Reporting Instructions</a></li>
-            <li><a href="#">Juror FAQ</a></li>
-            <li><a href="#">Orientation Video</a></li>
-          </ul>
-        </li>
-
-        <!-- Probation -->
-        <li>
-          <a href="#">Probation</a>
-          <ul class="dropdown">
-            <li><a href="#">Probation Overview</a></li>
-            <li><a href="#">Officer Directory</a></li>
-            <li><a href="#">Problem‑Solving Courts</a></li>
-            <li><a href="#">Alternative Sentencing</a></li>
-          </ul>
-        </li>
-
-        <!-- Contact & Location -->
-        <li>
-          <a href="#">Contact & Location</a>
-          <ul class="dropdown">
-            <li><a href="#">Address & Map</a></li>
-            <li><a href="#">Hours & Holidays</a></li>
-            <li><a href="#">Phone Directory</a></li>
-            <li><a href="#">Public Records Requests</a></li>
-          </ul>
-        </li>
+    <!-- Case Types -->
+    <li>
+      <a href="#">Case Types</a>
+      <ul class="dropdown">
+        <li><a href="#">Criminal</a></li>
+        <li><a href="#">Traffic / Civil Infractions</a></li>
+        <li><a href="#">General Civil</a></li>
+        <li><a href="#">Small Claims</a></li>
+        <li><a href="#">Landlord–Tenant</a></li>
+        <li><a href="#">Land‑Contract Forfeiture</a></li>
       </ul>
-    </nav>
+    </li>
 
-    <!-- MAIN CONTENT -->
-    <main>
-      {{ content }}
-    </main>
+    <!-- Online Services -->
+    <li>
+      <a href="#">Online Services</a>
+      <ul class="dropdown">
+        <li><a href="{{ '/record-search/' | relative_url }}">Case Lookup</a></li>
+        <li><a href="#">Online Payments</a></li>
+        <li><a href="#">Virtual Hearings</a></li>
+        <li><a href="#">Hearing Calendar</a></li>
+      </ul>
+    </li>
+
+    <!-- Forms & Resources -->
+    <li>
+      <a href="#">Forms & Resources</a>
+      <ul class="dropdown">
+        <li><a href="#">Forms Library</a></li>
+        <li><a href="#">Fee Schedule</a></li>
+        <li><a href="#">Self‑Help Center</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Local Administrative Orders</a></li>
+        <li><a href="#">ADA & Language Access</a></li>
+        <li><a href="#">Related Links</a></li>
+      </ul>
+    </li>
+
+    <!-- Juror Info -->
+    <li>
+      <a href="#">Juror Info</a>
+      <ul class="dropdown">
+        <li><a href="#">Jury Duty Overview</a></li>
+        <li><a href="#">Reporting Instructions</a></li>
+        <li><a href="#">Juror FAQ</a></li>
+        <li><a href="#">Orientation Video</a></li>
+      </ul>
+    </li>
+
+    <!-- Probation -->
+    <li>
+      <a href="#">Probation</a>
+      <ul class="dropdown">
+        <li><a href="#">Probation Overview</a></li>
+        <li><a href="#">Officer Directory</a></li>
+        <li><a href="#">Problem‑Solving Courts</a></li>
+        <li><a href="#">Alternative Sentencing</a></li>
+      </ul>
+    </li>
+
+    <!-- Contact & Location -->
+    <li>
+      <a href="#">Contact & Location</a>
+      <ul class="dropdown">
+        <li><a href="#">Address & Map</a></li>
+        <li><a href="#">Hours & Holidays</a></li>
+        <li><a href="#">Phone Directory</a></li>
+        <li><a href="#">Public Records Requests</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main>
+  {{ content }}
+</main>
 
 <!-- FOOTER -->
 <footer class="footer">
-  <div class="footer-grid"><!-- plain hyphen here -->
+  <div class="footer-grid">
     <div>
-      <p class="mt‑4">180 Ottawa Ave NW<br>Grand Rapids, MI 49503</p>
+      <p class="mt-4">180 Ottawa Ave NW<br>Grand Rapids, MI 49503</p>
       <p>Mon – Fri  8 AM – 5 PM</p>
     </div>
 
@@ -133,19 +211,66 @@
   </div>
 </footer>
 
-        <!-- Utility links -->
-        <div>
-          <a href="#" class="d-block mb-2">Privacy</a>
-          <a href="#" class="d-block">Accessibility</a>
-        </div>
-      </div>
-    </footer>
+<!-- Chatbot floater (always on screen) -->
+<a href="#" class="chat-float" id="chatToggle" aria-label="Open chat">
+  <i class="bi bi-chat-dots-fill"></i>
+</a>
 
+<!-- Chat overlay -->
+<div class="chat-window" id="chatWindow" aria-live="polite">
+  <div class="chat-header">
+    Virtual Assistant
+    <button id="chatClose" aria-label="Close chat">&times;</button>
+  </div>
 
-    <!-- Chatbot floater: appears on every page -->
-    <a href="#" class="chat-float" aria-label="Chatbot">
-      <i class="bi bi-chat-dots-fill"></i>
-    </a>
+  <div class="chat-messages" id="chatMessages">
+    <p><strong>🤖 Assistant:</strong> Hi! How can I help you?</p>
+  </div>
 
-  </body>
+  <form class="chat-input" id="chatForm">
+    <input type="text" id="chatInput"
+           placeholder="Type your message…" autocomplete="off" required>
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+<!-- Minimal chat‑window logic -->
+<script>
+(function () {
+  const toggleBtn = document.getElementById('chatToggle');
+  const chatWin   = document.getElementById('chatWindow');
+  const closeBtn  = document.getElementById('chatClose');
+  const form      = document.getElementById('chatForm');
+  const input     = document.getElementById('chatInput');
+  const msgs      = document.getElementById('chatMessages');
+
+  function toggle () {
+    chatWin.classList.toggle('open');
+    if (chatWin.classList.contains('open')) input.focus();
+  }
+
+  toggleBtn.addEventListener('click', e => { e.preventDefault(); toggle(); });
+  closeBtn.addEventListener('click', toggle);
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const text = input.value.trim();
+    if (!text) return;
+
+    msgs.insertAdjacentHTML('beforeend',
+      `<p><strong>🙋 You:</strong> ${text}</p>`);
+    msgs.scrollTop = msgs.scrollHeight;
+    input.value = '';
+
+    /* demo reply — replace with real API call later */
+    setTimeout(() => {
+      msgs.insertAdjacentHTML('beforeend',
+        `<p><strong>🤖 Assistant:</strong> I'm a demo for now, but we'll chat soon!</p>`);
+      msgs.scrollTop = msgs.scrollHeight;
+    }, 600);
+  });
+})();
+</script>
+
+</body>
 </html>

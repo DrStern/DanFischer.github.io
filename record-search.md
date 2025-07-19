@@ -1,44 +1,53 @@
 ---
-layout: default
-title: Mission & Vision
-permalink: /mission-vision/
+layout: default          # or whatever layout slug you use
+title: Record Search
+permalink: /record-search/
+description: Look up public case records for the 61st District Court.
 ---
 
-# Mission & Vision
+# Record Search
 
-## Our Mission
-To administer justice with fairness, efficiency, and transparency while fostering public trust in the judiciary.
+> **What’s here?**  
+> Use this tool to look up public case information filed in the 61st District Court.  
+> Updated nightly; personal identifiers (e.g., date of birth) are masked per **MCR 1.109**.
 
-## Our Vision
-To be a model District Court that embraces innovation, prioritizes community engagement, and delivers equitable outcomes for all who appear before us.
+## Launch the search
+
+<div class="text-center my-4">
+
+<a class="btn btn-primary btn-lg"
+   href="https://micourt.courts.michigan.gov/case-search/"
+   target="_blank" rel="noopener">
+  Begin Record Search
+</a>
+
+<br><small class="d-block mt-2">
+Opens the official MiCOURT Public Access portal in a new tab.
+</small>
+
+</div>
 
 ---
 
-## Guiding Principles
-- **Accessibility** – Ensure all court users can obtain information, services, and assistance without undue barriers.  
-- **Accountability** – Uphold the highest standards of integrity and responsibility in every decision.  
-- **Collaboration** – Partner with stakeholders to improve outcomes and community safety.  
-- **Innovation** – Leverage technology and evidence‑based practices to streamline processes and enhance service.  
-- **Respect** – Treat every individual with dignity, courtesy, and impartiality.
+## Need a quick refresher?
+
+1. Click **Begin Record Search** (or the button above).  
+2. On the MiCOURT page, choose **“District Court”** and pick <br>
+   **“61st District Court – Grand Rapids”** from the drop‑down.  
+3. Enter the case #, party name, or ticket # → press **Search**.  
+4. Expand a result to view dockets, minutes, and disposition.
+
+<details>
+<summary>Why don’t we show dates of birth anymore?</summary>
+MCR 1.109 now classifies DOB as *Protected Personal Identifying Information* (PPII). Courts redact it from web results. See the <a href="https://www.courts.michigan.gov/administration/special-initiatives/protecting-personal-identifying-information/" target="_blank" rel="noopener">Michigan Supreme Court guidance on PPII</a>.
+</details>
 
 ---
 
-## Strategic Goals (2025 – 2028)
+### In‑person & certified copies  
 
-### Modernize Court Technology
-- e‑filing roadmap  
-- Virtual‑hearing enhancements  
+Public kiosks are available in the Clerk’s Office lobby.  
+Certified record copies cost $1 per page (plus a $10 certification fee).  
+Call **616‑632‑5700 ×115** or email **records@61stdc.gov** for details.
 
-### Expand Problem‑Solving Courts
-- Add Mental‑Health Court track  
-- Increase capacity by 25 %  
-
-### Improve Community Outreach
-- Quarterly “Court in the Community” events  
-- Revamp website accessibility  
-
-### Enhance Staff Development
-- Leadership academy for supervisors  
-- Annual implicit‑bias training  
-
-*Last updated: {{ site.time | date: "%B %Y" }}*
+*Last updated: {{ site.time | date: "%B %Y" }}*
