@@ -205,34 +205,39 @@ a:hover{color:#003f8c;text-decoration:underline}
 .footer{
   background:#003b67;
   color:#fff;
-  padding:2rem 1rem;
+  padding:2rem 2.5rem;          /* ⬅ wider side padding */
   margin-top:3rem;
   font-size:.95rem;
 }
 
 .footer a{color:#d0e4ff}
 
-/* Three equal columns: address links logo  */
+/* FLEX row: Address | Links | Logo */
 .footer-grid{
-  display:grid;
-  grid-template-columns:1fr auto auto;
-  align-items:center;
+  display:flex;
+  justify-content:space-between; /* spreads three columns edge‑to‑edge */
+  align-items:center;            /* vertical centering */
   gap:2rem;
+  flex-wrap:nowrap;              /* **no wrapping** on desktop widths */
 }
 
+/* Logo size */
 .footer-logo{
-  width:120px;    /* tweak to taste */
+  width:120px;    /* tweak 100‑140 px if you’d like larger/smaller */
   height:auto;
   max-width:100%;
 }
 
-@media (max-width:600px){
+/* MOBILE: stack & center */
+@media (max-width:650px){
   .footer-grid{
-    grid-template-columns:1fr;
-    justify-items:center;
+    flex-wrap:wrap;              /* allow stacking on narrow screens */
     text-align:center;
   }
-  .footer-grid > div{margin-bottom:1rem}
+  .footer-grid > div{
+    flex:1 1 100%;
+    margin-bottom:1rem;
+  }
 }
 
 
