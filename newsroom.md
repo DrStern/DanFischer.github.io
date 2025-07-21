@@ -74,7 +74,7 @@ permalink: /newsroom/
 
 </section>
 
-<!-- ───────────  MEDIA RESOURCES  ─────────── -->
+<!-- ───────────  MEDIA  RESOURCES  ─────────── -->
 <section class="media-resources">
   <h2>Media Resources</h2>
   <ul>
