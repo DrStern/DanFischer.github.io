@@ -108,10 +108,15 @@ a:hover{color:var(--blue-900);opacity:.85;text-decoration:underline}
 /*--------------------------------------------------------------------
   4.  QUICK‑ACTION TILES
 --------------------------------------------------------------------*/
-.tile-row{
-  display:flex;flex-wrap:wrap;gap:1.5rem;
-  margin-top:-2.5rem;justify-content:center;
+.tile-row,          /* ← ASCII hyphen  U+002D */
+.tile‑row {         /* ← NON‑BREAKING hyphen  U+2011 */
+  display:flex;
+  flex-wrap:wrap;
+  gap:1.5rem;
+  margin-top:-2.5rem;
+  justify-content:center;
 }
+
 .quick-tile{
   flex:1 1 10rem;max-width:11rem;
   background:#fff;border:3px solid var(--gray-200);
