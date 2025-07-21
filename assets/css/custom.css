@@ -502,6 +502,59 @@ a:hover{color:var(--blue-900);opacity:.85;text-decoration:underline}
 main{padding:0 1.5rem}
 @media(min-width:992px){main{padding:0 3rem}}
 
+/* ------------------------------------------------------------------ */
+/*  ❏  HY‑PHEN COMPATIBILITY LAYER  – adds ASCII versions of key      */
+/*     classnames that were originally written with NB‑hyphens        */
+/* ------------------------------------------------------------------ */
+
+/* QUICK‑ACTION TILES (already patched earlier) */
+.tile-row,
+.tile‑row {                     /* NB‑hyphen stays for backward compat */
+  display:flex;
+  flex-wrap:wrap;
+  gap:1.5rem;
+  margin-top:-2.5rem;
+  justify-content:center;
+}
+
+/* SECTION CARDS – Special Programming / Online Services / News… */
+.section-grid,
+.section‑grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
+  gap:2rem;
+  margin-top:3rem;
+}
+
+/* BIG CTA STRIP – Fee Schedule / Forms Library / Employment … */
+.big-btn-row,
+.big‑btn‑row {
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem;
+  margin:2.75rem 0;
+}
+
+.big-btn,
+.big‑btn {
+  flex:1 1 15rem;
+  text-align:center;
+  background:var(--blue-800);
+  color:#fff;
+  border-radius:.75rem;
+  font-weight:700;
+  padding:.9rem 1rem;
+  transition:background .2s,transform .2s;
+}
+
+.big-btn:hover,
+.big‑btn:hover {
+  background:var(--blue-900);
+  transform:translateY(-3px);
+}
+/* ------------------------------------------------------------------ */
+
+
 /*--------------------------------------------------------------------
  10.  UTILS
 --------------------------------------------------------------------*/
