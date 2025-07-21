@@ -553,6 +553,11 @@ main{padding:0 1.5rem}
   transform:translateY(-3px);
 }
 /* ------------------------------------------------------------------ */
+/* Simple zebra‑striped tables */
+table{width:100%;border-collapse:collapse;margin-top:1.25rem}
+th,td{padding:.55rem .6rem;border:1px solid var(--gray-300)}
+th{background:var(--gray-100);text-align:left}
+tbody tr:nth-child(odd){background:#fcfdff}
 
 
 /*--------------------------------------------------------------------
