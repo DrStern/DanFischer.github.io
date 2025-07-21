@@ -1,53 +1,57 @@
 ---
-layout: default          # or whatever layout slug you use
-title: Record Search
-permalink: /record-search/
-description: Look up public case records for the 61st District Court.
+layout: default
+title: Annual Reports
+permalink: /annual-reports/
 ---
 
-# Record Search
+# Annual Reports
 
-> **What’s here?**  
-> Use this tool to look up public case information filed in the 61st District Court.  
-> Updated nightly; personal identifiers (e.g., date of birth) are masked per **MCR 1.109**.
+Each spring we publish a concise **Annual Report** summarising the prior
+calendar year’s caseload, performance metrics, financials and
+community‑impact programmes.   
+Older PDFs remain online so researchers and journalists can trace
+long‑term trends.
 
-## Launch the search
+## Quick Snapshot&nbsp;— Caseload (Five‑Year Overview)
 
-<div class="text-center my-4">
+| Year | Criminal | Traffic / Infractions | Civil | Small Claims | Landlord‑Tenant |
+|:----:|---------:|----------------------:|------:|-------------:|----------------:|
+| 2023 | **18 412** | 27 195 | 7 864 | 3 105 | 5 291 |
+| 2022 | 17 988 | 25 347 | 7 221 | 2 946 | 4 883 |
+| 2021 | 16 104 | 19 580 | 6 774 | 2 238 | 3 902 |
+| 2020 | 13 752 | 17 049 | 5 933 | 1 884 | 3 127 |
+| 2019 | 18 963 | 29 411 | 8 106 | 3 397 | 5 724 |
 
-<a class="btn btn-primary btn-lg"
-   href="https://micourt.courts.michigan.gov/case-search/"
-   target="_blank" rel="noopener">
-  Begin Record Search
-</a>
+<figure style="margin:2rem 0;text-align:center">
+  <img src="{{ '/assets/img/reporting.jpg' | relative_url }}"
+       alt="Clustered bar chart showing five‑year caseload trends"
+       style="max-width:700px;width:100%;border-radius:.5rem;box-shadow:0 4px 10px rgba(0,0,0,.12)">
+  <figcaption style="font-size:.9rem;color:#555">
+    Caseload mix by docket type, 2019‑2023 (source data above)
+  </figcaption>
+</figure>
 
-<br><small class="d-block mt-2">
-Opens the official MiCOURT Public Access portal in a new tab.
-</small>
+---
 
+## Download a Report (PDF)
+
+| Year | Report | Highlights |
+|------|--------|------------|
+| **2023** | <a href="#">61st District Court&nbsp;Annual&nbsp;Report&nbsp;2023 <i class="bi bi-file-earmark-pdf"></i></a> | Post‑pandemic rebound · Launch of Online Resolution · 15 % growth in expungement petitions |
+| **2022** | <a href="#">Annual&nbsp;Report&nbsp;2022 <i class="bi bi-file-earmark-pdf"></i></a> | Hybrid hearings · Probation re‑entry initiatives · First full year of virtual payments |
+| **2021** | <a href="#">Annual&nbsp;Report&nbsp;2021 <i class="bi bi-file-earmark-pdf"></i></a> | COVID backlog mitigation · Remote arraignments · Equity &amp; access dashboard |
+| **2020** | <a href="#">Annual&nbsp;Report&nbsp;2020 <i class="bi bi-file-earmark-pdf"></i></a> | Emergency operations · Early adoption of Zoom proceedings |
+| **2019** | <a href="#">Annual&nbsp;Report&nbsp;2019 <i class="bi bi-file-earmark-pdf"></i></a> | Pre‑pandemic baseline · Community outreach expansion |
+
+<div class="text‑center" style="margin-top:2.5rem">
+  <a href="#" class="big‑btn">Archive (2010‑2018)</a>
 </div>
 
 ---
 
-## Need a quick refresher?
+### Need Something Older?
 
-1. Click **Begin Record Search** (or the button above).  
-2. On the MiCOURT page, choose **“District Court”** and pick <br>
-   **“61st District Court – Grand Rapids”** from the drop‑down.  
-3. Enter the case #, party name, or ticket # → press **Search**.  
-4. Expand a result to view dockets, minutes, and disposition.
+Records prior to 2010 are available in the clerk’s office by request.
+Email <a href="mailto:records@grcourt.org">records@grcourt.org</a> or call
+(616)&nbsp;632‑5700.
 
-<details>
-<summary>Why don’t we show dates of birth anymore?</summary>
-MCR 1.109 now classifies DOB as *Protected Personal Identifying Information* (PPII). Courts redact it from web results. See the <a href="https://www.courts.michigan.gov/administration/special-initiatives/protecting-personal-identifying-information/" target="_blank" rel="noopener">Michigan Supreme Court guidance on PPII</a>.
-</details>
-
----
-
-### In‑person & certified copies  
-
-Public kiosks are available in the Clerk’s Office lobby.  
-Certified record copies cost $1 per page (plus a $10 certification fee).  
-Call **616‑632‑5700 ×115** or email **records@61stdc.gov** for details.
-
-*Last updated: {{ site.time | date: "%B %Y" }}*
