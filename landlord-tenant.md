@@ -1,54 +1,101 @@
 ---
 layout: default
-title: Role in Michigan Courts
-permalink: /role-in-michigan-courts/
+title: Landlord‑Tenant
+permalink: /case-types/landlord-tenant/
 ---
 
-# Our Role in Michigan’s Court System
+<section class="case-hero">
+  <h1>Landlord – Tenant</h1>
+  <p class="tagline">
+    Summary‑proceedings for evictions, possession of rental property, and claims
+    for overdue rent or damages.
+  </p>
+</section>
 
-District courts are the judiciary’s “front door.” They handle the vast majority of criminal, traffic, and civil matters filed in Michigan.  
-As a district court serving Grand Rapids, the **61st District Court** is responsible for early criminal proceedings, lower‑value civil disputes, and a range of problem‑solving programs that divert eligible participants away from traditional sentencing.
+<div class="card">
+  <p>
+    Most rental disputes in Michigan are handled in <strong>summary‑proceedings</strong>,
+    a fast‑track court process designed to decide <em>possession</em> (who gets the
+    property) and, if requested, unpaid <em>money damages</em>.
+  </p>
+</div>
+
+## Common landlord‑tenant filings
+
+| Case type                | Typical reasons                                                        |
+|--------------------------|------------------------------------------------------------------------|
+| Non‑payment of rent      | Tenant owes past‑due rent or late fees                                 |
+| Termination of tenancy   | Lease has expired or landlord served a 30‑day notice to quit           |
+| Health &amp; safety      | Illegal activity, extensive damage, or serious lease violations        |
+| Land contract forfeiture | Missed installments on a residential land contract                     |
+
+## Pre‑filing notice requirements
+
+| Notice                    | When required                               | Statutory timing |
+|---------------------------|---------------------------------------------|------------------|
+| 7‑day <em>Demand for Rent</em>  | Unpaid rent                             | 7 calendar days  |
+| 30‑day <em>Notice to Quit</em>  | Month‑to‑month tenancy termination      | 30 calendar days |
+| 24‑hour notice            | Illegal drug activity (§ MCL 600.5714(1)(b)) | 24 hours         |
+
+> **Tip:** Notices must be served in person, by certified mail, or by
+> posting and first‑class mail as allowed by statute.
+
+## Filing an eviction (summary‑proceedings)
+
+1. **Prepare the complaint** – Use form <em>DC 102a</em>
+   (<em>Complaint to Recover Possession of Property</em>).  
+2. **File &amp; pay the fee** – See fee table below; file in the district where the
+   rental unit is located.  
+3. **Serve the summons** – Personal service or certified mail <strong>&nbsp;≥ 3 days</strong>
+   before the hearing date.  
+4. **Attend the hearing** – Bring the lease, ledgers, photos, and witnesses.  
+5. **Judgment &amp; writ** – If the landlord prevails, a writ of restitution may
+   issue <strong>after 10 days</strong> (unless waived by the tenant).
+
+<div class="card">
+  <h3>Filing fees</h3>
+
+  <table class="data-table">
+    <thead>
+      <tr><th>Claim type</th><th>Filing fee</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Possession only</td><td>$55</td></tr>
+      <tr><td>Possession <em>and</em> money damages</td><td>$75</td></tr>
+      <tr><td>Jury demand (optional)</td><td>+ $55</td></tr>
+      <tr><td>Writ of restitution (after judgment)</td><td>$15</td></tr>
+    </tbody>
+  </table>
+
+  <small>These fees are set by state statute and do not include service fees.</small>
+</div>
+
+## Tenant defenses &amp; counter‑claims
+
+* **Rent paid or withheld** due to serious repairs (escrow).  
+* **Improper notice** or defective service.  
+* **Retaliatory eviction** after complaints to housing officials.  
+* **Discrimination** under fair‑housing laws.  
+* **Warranty of habitability** violations (unsafe or uninhabitable unit).  
+
+Tenants may also file a **counter‑claim** for damages such as overpaid rent or
+security‑deposit violations.
+
+## After judgment
+
+| Scenario                  | Next steps                                                      |
+|---------------------------|-----------------------------------------------------------------|
+| **Landlord wins**        | May request a writ. Tenant has 10 days to move/pay or appeal.   |
+| **Tenant wins**          | Case dismissed; landlord may be ordered to make repairs.        |
+| **Payment plan ordered** | Judgment is stayed so long as tenant complies with installments.|
+
+## Forms &amp; resources
+
+* **DC 102a – Complaint &amp; Summons** – [Download PDF →](https://courts.michigan.gov)  
+* **DC 105 – Answer, Counter‑claim &amp; Jury Demand** – [Download PDF →](https://courts.michigan.gov)  
+* **Eviction Diversion Program** – [Learn more →](/special-programs/eviction-diversion)  
+* **Michigan Legal Help – Housing** – <https://michiganlegalhelp.org>  
 
 ---
-
-## Where We Fit in the Statewide Hierarchy
-
-| **District Courts** | First appearance for most cases, misdemeanors through trial, felony arraignments & prelim exams, traffic, small civil matters. | DUI 1st, retail fraud, civil suit ≤ $25 k, eviction hearing. |
-| **Circuit Courts** | Serious felonies through trial, higher‑value civil, family & juvenile jurisdiction, appeals from district court. | Felony assault, divorce, civil suit > $25 k. |
-| **Court of Appeals** | Reviews legal errors from circuit (and some agency) decisions. | Appeal of circuit‑court verdict. |
-| **Michigan Supreme Court** | Final interpreter of Michigan law; sets statewide rules, oversees the judiciary through the SCAO. | Establishes court‑rule changes, decides landmark appeals. |
-
----
-
-## Types of Cases We Handle
-
-### Criminal
-* **Misdemeanors** – Assault & Battery, Retail Fraud (Misd.), DUI/OWI 1st, etc.  
-* **Preliminary Felony Proceedings** – Arraignment, probable‑cause conference, & preliminary exam before transfer to Circuit Court.  
-
-### Civil
-* **General Civil** – Contract disputes, personal‑property claims ≤ $25k.  
-* **Small Claims** – Informal disputes ≤ $7,000 (no attorneys required).  
-* **Landlord–Tenant** – Eviction, rental arrears, land‑contract forfeitures.
-
-### Traffic & Local Ordinances
-* Moving violations, parking citations, city code infractions, marine & park violations.
-
-### Problem‑Solving & Specialty Dockets
-* **Sobriety Courts** (Misdemeanor and Felony DUI)  
-* **Drug Court**  
-* **Domestic Violence Court**
-* **Community Outreach Court**  
-These programs emphasize treatment and accountability over traditional sentencing.
-
----
-
-## How We Fit in the Statewide Structure
-1. **Arrest / Citation → District Court** – Arraignment, plea, discovery, motions, trial (for misdemeanors) or preliminary exam (for felonies).  
-2. **Felony bind‑over** → 17th Circuit Court for trial & sentencing.  
-3. **Appeals** – District‑court decisions may be appealed “by right” to Circuit Court, then to the Michigan Court of Appeals and the Michigan Supreme Court.  
-4. **Administrative Oversight** – The State Court Administrative Office (SCAO) sets statewide policy, collects caseload data, and audits specialty courts for compliance.
-
-
 
 *Last updated: {{ site.time | date: "%B %Y" }}*
