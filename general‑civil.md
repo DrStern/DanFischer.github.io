@@ -1,54 +1,93 @@
 ---
 layout: default
-title: Role in Michigan Courts
-permalink: /role-in-michigan-courts/
+title: General Civil
+permalink: /case-types/general-civil/
 ---
 
-# Our Role in Michigan’s Court System
+<section class="case-hero">
+  <h1>General Civil</h1>
+  <p class="tagline">
+    Lawsuits up to $25,000 — summons, complaints, mediation, and money judgments.
+  </p>
+</section>
 
-District courts are the judiciary’s “front door.” They handle the vast majority of criminal, traffic, and civil matters filed in Michigan.  
-As a district court serving Grand Rapids, the **61st District Court** is responsible for early criminal proceedings, lower‑value civil disputes, and a range of problem‑solving programs that divert eligible participants away from traditional sentencing.
+<div class="card">
+  <p>
+    A <strong>general civil</strong> case is a lawsuit between private parties
+    (individuals, businesses, or organizations) seeking
+    <em>money damages</em> or the return of property valued at
+    <strong>up to $25,000</strong>. These cases are heard in District Court.
+    (Claims above $25,000 are filed in Circuit Court.)
+  </p>
+</div>
+
+## Common case types
+
+| Category         | Examples                                              |
+|------------------|-------------------------------------------------------|
+| Contract disputes| Unpaid invoices, breach of service agreements         |
+| Property damage  | Vehicle repairs after a crash, damage to rental units |
+| Personal injury  | Minor auto‑accident injuries, slip‑and‑fall claims    |
+| Consumer issues  | Faulty workmanship, defective products                |
+
+## Filing a lawsuit
+
+1. **Prepare the forms** – Complete a <em>Complaint</em> and a <em>Summons</em>.  
+2. **Pay the filing fee** – Based on the amount you are seeking (see table below).  
+3. **Serve the defendant** – Arrange for certified mail or personal service.  
+4. **File proof of service** – Return the completed Proof‑of‑Service form to the court.  
+
+<div class="card">
+  <h3>Filing fees</h3>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Claim amount</th>
+        <th>Filing fee*</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Up to $600</td><td>$55</td></tr>
+      <tr><td>$600.01 – $1,750</td><td>$75</td></tr>
+      <tr><td>$1,750.01 – $10,000</td><td>$160</td></tr>
+      <tr><td>$10,000.01 – $25,000</td><td>$185</td></tr>
+    </tbody>
+  </table>
+
+  <small>*Plus a $25 judgment fee if the case is resolved in your favor.</small>
+</div>
+
+## After service: the defendant’s options
+
+* **File an Answer** (within 21 days of service).  
+* **File a Counter‑claim** or **Cross‑claim** if applicable.  
+* **Negotiate a settlement** or request <strong>mediation</strong>.  
+* <em>Do nothing</em> – The plaintiff may request a default judgment after 21 days.
+
+## Pre‑trial conference &amp; mediation
+
+Most general‑civil cases are scheduled for a brief **pre‑trial conference** to set deadlines and explore settlement.  
+Cases under $5,000 are often referred to a **Community Dispute Resolution Center** for free or low‑cost mediation.
+
+## Trial
+
+If the case does not settle, it proceeds to a bench or jury trial.  
+Parties must exchange exhibits and witness lists at least 14 days before trial.
+
+## Collecting a judgment
+
+* The court does <em>not</em> collect the money for you.  
+* Common tools include **garnishment** of wages or bank accounts, and **seizure** of property by a court officer.  
+* Judgments accrue <strong>post‑judgment interest</strong> set by statute.
+
+## Forms &amp; resources
+
+* **Complaint &amp; Summons (MC 01)** – [Download PDF →](https://courts.michigan.gov)  
+* **Answer Form (MC 03)** – [Download PDF →](https://courts.michigan.gov)  
+* **Community Dispute Resolution Centers** – [Find a center →](https://courts.michigan.gov)  
+* **Post‑Judgment Collection Guide** – [Read more →](/forms/collection-guide)
 
 ---
-
-## Where We Fit in the Statewide Hierarchy
-
-| **District Courts** | First appearance for most cases, misdemeanors through trial, felony arraignments & prelim exams, traffic, small civil matters. | DUI 1st, retail fraud, civil suit ≤ $25 k, eviction hearing. |
-| **Circuit Courts** | Serious felonies through trial, higher‑value civil, family & juvenile jurisdiction, appeals from district court. | Felony assault, divorce, civil suit > $25 k. |
-| **Court of Appeals** | Reviews legal errors from circuit (and some agency) decisions. | Appeal of circuit‑court verdict. |
-| **Michigan Supreme Court** | Final interpreter of Michigan law; sets statewide rules, oversees the judiciary through the SCAO. | Establishes court‑rule changes, decides landmark appeals. |
-
----
-
-## Types of Cases We Handle
-
-### Criminal
-* **Misdemeanors** – Assault & Battery, Retail Fraud (Misd.), DUI/OWI 1st, etc.  
-* **Preliminary Felony Proceedings** – Arraignment, probable‑cause conference, & preliminary exam before transfer to Circuit Court.  
-
-### Civil
-* **General Civil** – Contract disputes, personal‑property claims ≤ $25k.  
-* **Small Claims** – Informal disputes ≤ $7,000 (no attorneys required).  
-* **Landlord–Tenant** – Eviction, rental arrears, land‑contract forfeitures.
-
-### Traffic & Local Ordinances
-* Moving violations, parking citations, city code infractions, marine & park violations.
-
-### Problem‑Solving & Specialty Dockets
-* **Sobriety Courts** (Misdemeanor and Felony DUI)  
-* **Drug Court**  
-* **Domestic Violence Court**
-* **Community Outreach Court**  
-These programs emphasize treatment and accountability over traditional sentencing.
-
----
-
-## How We Fit in the Statewide Structure
-1. **Arrest / Citation → District Court** – Arraignment, plea, discovery, motions, trial (for misdemeanors) or preliminary exam (for felonies).  
-2. **Felony bind‑over** → 17th Circuit Court for trial & sentencing.  
-3. **Appeals** – District‑court decisions may be appealed “by right” to Circuit Court, then to the Michigan Court of Appeals and the Michigan Supreme Court.  
-4. **Administrative Oversight** – The State Court Administrative Office (SCAO) sets statewide policy, collects caseload data, and audits specialty courts for compliance.
-
-
 
 *Last updated: {{ site.time | date: "%B %Y" }}*
