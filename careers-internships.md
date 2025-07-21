@@ -1,53 +1,93 @@
 ---
-layout: default          # or whatever layout slug you use
-title: Record Search
-permalink: /record-search/
-description: Look up public case records for the 61st District Court.
+layout: default
+title: Careers & Internships
+permalink: /careers-internships/
 ---
 
-# Record Search
+<!-- ─────────────────  HERO  ───────────────── -->
+<section class="careers-hero text‑center">
+  <h1>Join the 61<sup>st</sup> District Court Team</h1>
+  <p>Serve your community, grow your career, and help ensure equal justice for all.</p>
+</section>
 
-> **What’s here?**  
-> Use this tool to look up public case information filed in the 61st District Court.  
-> Updated nightly; personal identifiers (e.g., date of birth) are masked per **MCR 1.109**.
+<!-- ─────────────────  JOB BOARD  ──────────── -->
+<section class="job-board">
+  <h2 class="section-heading">Current Openings</h2>
 
-## Launch the search
+  <div class="job-list">
 
-<div class="text-center my-4">
+    <!-- Job card -->
+    <article class="job-card">
+      <header>
+        <h3>Court Clerk I</h3>
+        <span class="job-type full-time">Full‑time</span>
+      </header>
 
-<a class="btn btn-primary btn-lg"
-   href="https://micourt.courts.michigan.gov/case-search/"
-   target="_blank" rel="noopener">
-  Begin Record Search
-</a>
+      <p class="job-snapshot">
+        Front‑line customer service: process filings &amp; payments, answer inquiries, and maintain
+        accurate case records.
+      </p>
 
-<br><small class="d-block mt-2">
-Opens the official MiCOURT Public Access portal in a new tab.
-</small>
+      <ul class="job-meta">
+        <li><i class="bi bi-geo-alt"></i> Grand Rapids, MI (on‑site)</li>
+        <li><i class="bi bi-cash-stack"></i> $41 200 – $52 300</li>
+      </ul>
 
-</div>
+      <a href="#" class="apply-btn">View details / apply</a>
+    </article>
 
----
+    <!-- Repeat ↓↓↓  (copy‑paste to add more postings) -->
+    <article class="job-card">
+      <header>
+        <h3>Judicial Assistant (Float)</h3>
+        <span class="job-type full-time">Full‑time</span>
+      </header>
 
-## Need a quick refresher?
+      <p class="job-snapshot">
+        Provide in‑chambers support for three district judges; prepare docket sheets, draft orders,
+        and coordinate case flow.
+      </p>
 
-1. Click **Begin Record Search** (or the button above).  
-2. On the MiCOURT page, choose **“District Court”** and pick <br>
-   **“61st District Court – Grand Rapids”** from the drop‑down.  
-3. Enter the case #, party name, or ticket # → press **Search**.  
-4. Expand a result to view dockets, minutes, and disposition.
+      <ul class="job-meta">
+        <li><i class="bi bi-geo-alt"></i> Grand Rapids, MI (hybrid)</li>
+        <li><i class="bi bi-cash-stack"></i> $48 800 – $60 000</li>
+      </ul>
 
-<details>
-<summary>Why don’t we show dates of birth anymore?</summary>
-MCR 1.109 now classifies DOB as *Protected Personal Identifying Information* (PPII). Courts redact it from web results. See the <a href="https://www.courts.michigan.gov/administration/special-initiatives/protecting-personal-identifying-information/" target="_blank" rel="noopener">Michigan Supreme Court guidance on PPII</a>.
-</details>
+      <a href="#" class="apply-btn">View details / apply</a>
+    </article>
 
----
+    <article class="job-card">
+      <header>
+        <h3>Summer Intern – Problem‑Solving Courts</h3>
+        <span class="job-type internship">Internship</span>
+      </header>
 
-### In‑person & certified copies  
+      <p class="job-snapshot">
+        Work alongside probation officers to research best practices and support our Sobriety & 
+        Mental‑Health dockets.
+      </p>
 
-Public kiosks are available in the Clerk’s Office lobby.  
-Certified record copies cost $1 per page (plus a $10 certification fee).  
-Call **616‑632‑5700 ×115** or email **records@61stdc.gov** for details.
+      <ul class="job-meta">
+        <li><i class="bi bi-calendar3"></i> May – Aug 2025</li>
+        <li><i class="bi bi-geo-alt"></i> Grand Rapids, MI</li>
+      </ul>
 
-*Last updated: {{ site.time | date: "%B %Y" }}*
+      <a href="#" class="apply-btn">View details / apply</a>
+    </article>
+
+  </div><!-- /.job-list -->
+</section>
+
+<!-- ────────────────  INTERNSHIPS CTA  ─────────────── -->
+<section class="internship-cta text‑center">
+  <h2>Student Internship Program</h2>
+  <p>
+    Each semester we welcome <strong>undergraduate &amp; law‑school interns</strong> for credit or
+    practicum hours in judicial, probation, and IT divisions.
+  </p>
+  <a href="#" class="apply-btn wide">
+    <i class="bi bi-file-earmark-text"></i>
+    Download Internship Packet&nbsp;(PDF)
+  </a>
+</section>
+
