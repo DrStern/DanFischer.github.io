@@ -338,9 +338,10 @@ a:hover{color:var(--blue-900);opacity:.85;text-decoration:underline}
 @media(max-width:480px){
   .job-card{padding:1.25rem}
   .careers-hero h1{font-size:2rem}
+
 /* ──────────────────────────────────────────────────────────
    NEWSROOM & ARTICLES
-   ------------------------------------------------------------------ */
+  ------------------------------------------------------------------ */
 
 /* HERO BANNER */
 .news-hero{
