@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Traffic & Civil Infractions
-permalink: /traffic-civil-infractions/
+permalink: /case-types/traffic/
 ---
 
 <section class="case-hero">
