@@ -243,6 +243,102 @@ a:hover{color:var(--blue-900);opacity:.85;text-decoration:underline}
   .footer-grid>div{flex:1 1 100%;margin-bottom:1rem}
 }
 
+/* ==============================================================
+   CAREERS / JOB‑BOARD STYLES  (⬇ new section ⬇)
+   ============================================================== */
+
+/* HERO BANNER */
+.careers-hero{
+  background:#003b67 url('../img/recruit.jpg') center/cover no-repeat;
+  color:#fff;
+  text-shadow:0 1px 4px rgba(0,0,0,.6);
+  padding:4rem 1rem 3.5rem;
+}
+.careers-hero h1{font-size:2.4rem;font-weight:800;margin:.25rem 0}
+.careers-hero p{font-size:1.15rem;margin:0}
+
+/* SECTION HEADING */
+.section-heading{
+  font-size:1.6rem;
+  font-weight:700;
+  margin:2.5rem 0 1.2rem;
+  color:#003b67;
+  text-align:center;
+}
+
+/* JOB LIST GRID */
+.job-list{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));
+  gap:1.75rem;
+}
+
+/* CARD ITSELF */
+.job-card{
+  background:#fff;
+  border:1px solid #dee2e6;
+  border-radius:.85rem;
+  padding:1.6rem 1.25rem 1.25rem;
+  box-shadow:0 2px 6px rgba(0,0,0,.06);
+  display:flex;
+  flex-direction:column;
+}
+.job-card header{
+  display:flex;justify-content:space-between;align-items:flex-start;
+  margin-bottom:.6rem;
+}
+.job-card h3{
+  font-size:1.15rem;
+  font-weight:700;
+  color:#003b67;
+  margin:0;
+  flex:1 1 auto;
+}
+.job-type{
+  font-size:.78rem;
+  font-weight:700;
+  padding:.2rem .55rem;
+  border-radius:.5rem;
+  white-space:nowrap;
+  color:#fff;
+}
+.job-type.full-time{background:#198754}      /* green */
+.job-type.part-time{background:#0d6efd}      /* blue */
+.job-type.internship{background:#f79500}     /* orange */
+
+.job-snapshot{margin:.4rem 0 .8rem;font-size:.94rem}
+
+.job-meta{list-style:none;padding:0;margin:0 0 1rem;font-size:.87rem}
+.job-meta li{display:flex;align-items:center;margin:.25rem 0}
+.job-meta i{margin-right:.35rem;font-size:1rem;color:#003b67}
+
+.apply-btn{
+  margin-top:auto;
+  align-self:flex-start;
+  background:#004f91;
+  color:#fff!important;
+  padding:.45rem .9rem;
+  font-weight:700;
+  font-size:.9rem;
+  border-radius:.5rem;
+  transition:background .2s,transform .2s;
+}
+.apply-btn.wide{display:inline-block;padding:.6rem 1.2rem;font-size:1rem}
+.apply-btn:hover{background:#003b67;transform:translateY(-2px)}
+
+/* INTERNSHIP CTA */
+.internship-cta{
+  background:#e9ecef;
+  padding:3rem 1rem 3.5rem;
+  margin-top:3rem;
+}
+.internship-cta h2{margin-top:0;color:#003b67}
+
+/* Responsive tweak for very narrow phones */
+@media(max-width:480px){
+  .job-card{padding:1.25rem}
+  .careers-hero h1{font-size:2rem}
+
 /*--------------------------------------------------------------------
   9.  MAIN container padding
 --------------------------------------------------------------------*/
