@@ -5,7 +5,7 @@ permalink: /case-types/traffic/
 ---
 
 <div class="case-hero">
-  # Traffic & Civil Infractions  
+  ## Traffic & Civil Infractions  
   <span class="tagline">
     Tickets, fines, points, and your options for resolving non‑criminal offenses.
   </span>
