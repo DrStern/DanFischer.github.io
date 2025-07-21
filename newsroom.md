@@ -16,7 +16,7 @@ permalink: /newsroom/
 <!-- ───────────  FEATURED STORY  ─────────── -->
 <section class="featured-story">
   <article class="featured-card">
-    <img src="{{ '/assets/img/news/job-fair-2025.jpg' | relative_url }}" alt="" class="featured-img">
+    <img src="{{ '/assets/img/job-fair-2025.jpg' | relative_url }}" alt="" class="featured-img">
     <div class="featured-body">
       <h2 class="headline">Job Fair draws record turnout</h2>
       <p class="pub-date">July&nbsp;2025</p>
@@ -34,7 +34,7 @@ permalink: /newsroom/
 
   <!-- Card -->
   <article class="news-card">
-    <img src="{{ '/assets/img/news/vtc-graduation.jpg' | relative_url }}" alt="">
+    <img src="{{ '/assets/img/vtc-graduation.jpg' | relative_url }}" alt="">
     <div class="news-card-body">
       <h3>Problem‑Solving Court Graduation</h3>
       <p class="pub-date">May&nbsp;2025</p>
@@ -47,7 +47,7 @@ permalink: /newsroom/
   </article>
 
   <article class="news-card">
-    <img src="{{ '/assets/img/news/dan-promotion.jpg' | relative_url }}" alt="">
+    <img src="{{ '/assets/img/dan-promotion.jpg' | relative_url }}" alt="">
     <div class="news-card-body">
       <h3>Dan Fischer promoted to Deputy Court Administrator</h3>
       <p class="pub-date">January&nbsp;2025</p>
@@ -60,7 +60,7 @@ permalink: /newsroom/
   </article>
 
   <article class="news-card">
-    <img src="{{ '/assets/img/news/e-filing.jpg' | relative_url }}" alt="">
+    <img src="{{ '/assets/img/e-filing.jpg' | relative_url }}" alt="">
     <div class="news-card-body">
       <h3>e‑Filing Pilot Launches</h3>
       <p class="pub-date">December&nbsp;2024</p>
