@@ -1,53 +1,97 @@
 ---
-layout: default          # or whatever layout slug you use
-title: Record Search
-permalink: /record-search/
-description: Look up public case records for the 61st District Court.
+layout: default
+title: Careers & Internships
+permalink: /careers-internships/
 ---
 
-# Record Search
+# Join the 61<sup>st</sup> District Court Team
 
-> **What’s here?**  
-> Use this tool to look up public case information filed in the 61st District Court.  
-> Updated nightly; personal identifiers (e.g., date of birth) are masked per **MCR 1.109**.
+Working here means serving Michigan’s second‑largest city with integrity,
+innovation & compassion. We hire a wide range of talent—court clerks,
+probation officers, IT specialists, summer interns and more.
 
-## Launch the search
+> **Benefits snapshot**  
+> •  Competitive municipal pay  •  Hybrid schedule options  
+> •  10 paid holidays  •  Pension + 457(b)  •  Tuition reimbursement
 
-<div class="text-center my-4">
+---
 
-<a class="btn btn-primary btn-lg"
-   href="https://micourt.courts.michigan.gov/case-search/"
-   target="_blank" rel="noopener">
-  Begin Record Search
-</a>
+## Current Openings
 
-<br><small class="d-block mt-2">
-Opens the official MiCOURT Public Access portal in a new tab.
-</small>
+<div class="section‑grid">
 
+<div class="card">
+<h2>Court Clerk I</h2>
+<ul>
+  <li><strong>Status:</strong> Full‑time · Union · Grade 7</li>
+  <li><strong>Closes:</strong> <em>April 30&nbsp;2025</em></li>
+</ul>
+<p>Front‑counter &amp; phone customer service, filing, data entry and
+docket preparation.</p>
+<a href="#" class="big‑btn" style="margin-top:.5rem">Apply Now</a>
+</div>
+
+<div class="card">
+<h2>Probation Officer</h2>
+<ul>
+  <li><strong>Status:</strong> Full‑time · Non‑union · Grade 11</li>
+  <li><strong>Closes:</strong> <em>May 8&nbsp;2025</em></li>
+</ul>
+<p>Supervise misdemeanor caseload, conduct PSI reports, and coordinate
+evidence‑based programs.</p>
+<a href="#" class="big‑btn" style="margin-top:.5rem">Apply Now</a>
+</div>
+
+<div class="card">
+<h2>IT Support Analyst</h2>
+<ul>
+  <li><strong>Status:</strong> Full‑time · Non‑union · Grade 10</li>
+  <li><strong>Closes:</strong> <em>Open until filled</em></li>
+</ul>
+<p>Maintain courtroom A/V, network endpoints and user accounts; work
+closely with city IT.</p>
+<a href="#" class="big‑btn" style="margin-top:.5rem">Apply Now</a>
+</div>
+
+</div><!-- /.section‑grid -->
+
+<div class="text‑center" style="margin:2.5rem 0 3rem">
+  <em>Don’t see a match? We post new roles each quarter &ndash; check back soon.</em>
 </div>
 
 ---
 
-## Need a quick refresher?
+## Internship &amp; Externship Tracks — Summer 2025
 
-1. Click **Begin Record Search** (or the button above).  
-2. On the MiCOURT page, choose **“District Court”** and pick <br>
-   **“61st District Court – Grand Rapids”** from the drop‑down.  
-3. Enter the case #, party name, or ticket # → press **Search**.  
-4. Expand a result to view dockets, minutes, and disposition.
+| Program | Length | Eligibility | Stipend |
+|---------|:------:|-------------|:-------:|
+| **Court Administration** | 10 weeks | Junior/Senior undergrad (Public Admin, CJ) | $15/hr |
+| **Judicial Intern** | 6 weeks | 1<sup>st</sup>/2<sup>nd</sup>‑year law student | Unpaid<sup>&dagger;</sup> |
+| **Problem‑Solving Courts** | 12 weeks | Grad social‑work student | $18/hr |
 
-<details>
-<summary>Why don’t we show dates of birth anymore?</summary>
-MCR 1.109 now classifies DOB as *Protected Personal Identifying Information* (PPII). Courts redact it from web results. See the <a href="https://www.courts.michigan.gov/administration/special-initiatives/protecting-personal-identifying-information/" target="_blank" rel="noopener">Michigan Supreme Court guidance on PPII</a>.
-</details>
+<small>&dagger;&nbsp;Many schools award academic credit—confirm with
+your registrar.</small>
+
+<div class="text‑center" style="margin-top:2rem">
+  <a href="#" class="big‑btn">Internship Application Portal</a>
+</div>
 
 ---
 
-### In‑person & certified copies  
+## Hiring Timeline
 
-Public kiosks are available in the Clerk’s Office lobby.  
-Certified record copies cost $1 per page (plus a $10 certification fee).  
-Call **616‑632‑5700 ×115** or email **records@61stdc.gov** for details.
+1. **Apply online** – résumé, cover letter &amp; short questionnaire.  
+2. **HR screening** – within two weeks of closing date.  
+3. **Panel interview** – behavioural &amp; skills‑based.  
+4. **Background check &amp; references**.  
+5. **Offer &amp; onboarding** – target start in 30‑45 days.
 
-*Last updated: {{ site.time | date: "%B %Y" }}*
+---
+
+### Questions?
+
+Email **<a href="mailto:careers@grcourt.org">careers@grcourt.org</a>**
+or call (616)&nbsp;632‑5700. We’re happy to talk about roles,
+accommodation requests, or upcoming internship cycles.
+
+*Last updated&nbsp;{{ site.time | date: "%B&nbsp;%Y" }}*
