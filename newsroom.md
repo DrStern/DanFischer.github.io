@@ -62,11 +62,10 @@ permalink: /newsroom/
   <article class="news-card">
     <img src="{{ '/assets/img/e-filing.jpg' | relative_url }}" alt="">
     <div class="news-card-body">
-      <h3>e‑Filing Pilot Launches</h3>
+      <h3>Court Celebrates City's 175th Birthday!</h3>
       <p class="pub-date">December&nbsp;2024</p>
       <p class="teaser">
-        Attorneys can now submit civil filings online, streamlining case initiation and reducing
-        wait times.
+        The court celebrated the city's 175th Birthday, special guests included Chief Judge Angela Ross and City Manager Mark Washington
       </p>
       <a href="#" class="read-more">Read&nbsp;→</a>
     </div>
